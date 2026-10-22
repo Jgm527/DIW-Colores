@@ -1,0 +1,15 @@
+# Obsidian: estado local de la aplicación, no compartir entre equipos
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/cache
+wiki/.obsidian/plugins/*/data.json
+wiki/.trash/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Entornos locales
+.env
+node_modules/
