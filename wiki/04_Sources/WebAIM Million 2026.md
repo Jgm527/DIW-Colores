@@ -35,5 +35,5 @@ Informe primario de WebAIM sobre la accesibilidad de las 1.000.000 de portadas m
 - No se debe convertir la media de errores en una predicción por página concreta.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Priority Pixels — WebAIM Million 2026]], [[Horlix — WebAIM Million 2026]], [[Contraste WCAG]], [[Verificación de contraste]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Priority Pixels — WebAIM Million 2026]], [[Horlix — WebAIM Million 2026]], [[Contraste WCAG]], [[Verificación de contraste]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Checklist de color para desarrolladores]]
 - Source History: [[2026-10-24]]

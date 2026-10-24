@@ -42,6 +42,9 @@ La deficiencia de visión al color (o daltonismo) es una alteración de la perce
 - **Heurística:** la creencia de que «los daltónicos no ven rojo ni verde» es una simplificación; existen varios tipos y grados.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Uso del color (WCAG 1.4.1)]], [[Colores semánticos]], [[Percepción del color]], [[Verificación de contraste]], [[Contraste WCAG]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Uso del color (WCAG 1.4.1)]], [[Colores semánticos]], [[Percepción del color]], [[Verificación de contraste]], [[Contraste WCAG]], [[Combinaciones de color (buenas y malas)]], [[Errores frecuentes de color]], [[Checklist de color para desarrolladores]]
 - Sources: [[InfoQ — Colors and the UI]], [[W3C — Understanding SC 1.4.1 Uso del color]], [[Pope Tech — Color contrast accessibility tools with examples]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazada con [[Combinaciones de color (buenas y malas)]], [[Errores frecuentes de color]] y [[Checklist de color para desarrolladores]] al tratar los apartados 7–9. Se mantiene la incidencia de InfoQ (2008) con su cautela.

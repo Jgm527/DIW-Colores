@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/02_Entities/Hoja de Ruta.md",
+                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hoja de Ruta"
+              "title": "Tema 3 - Color en interfaces web"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/02_Entities/Hoja de Ruta.md",
+                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/02_Entities/Hoja de Ruta.md",
+                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/02_Entities/Hoja de Ruta.md",
+                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +190,16 @@
   },
   "active": "cbd47ad891e4c1ff",
   "lastOpenFiles": [
+    "wiki/04_Sources/Material Design 3 — Color roles.md",
+    "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
     "wiki/02_Entities/Hoja de Ruta.md",
+    "wiki/04_Sources/W3C — What's New in WCAG 2.2.md",
+    "wiki/02_Entities/Esquema del Trabajo.md",
+    "wiki/02_Entities/Checklist de color para desarrolladores.md",
+    "wiki/02_Entities/Combinaciones de color (buenas y malas).md",
+    "wiki/02_Entities/Errores frecuentes de color.md",
+    "wiki/02_Entities/Jerarquía visual con color.md",
+    "wiki/02_Entities/Convenciones culturales del color.md",
     "wiki/00_Meta/Index.md",
     "WCAG 3.0 (borrador).md",
     "wiki/06_Journal/2026-10-24.md",

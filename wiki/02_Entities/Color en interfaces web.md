@@ -31,7 +31,9 @@ El color en una interfaz no es decoración: codifica jerarquía, estado e identi
 | Paletas | [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]] |
 | Normativa | [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Uso del color (WCAG 1.4.1)]], [[Niveles de conformidad WCAG]], [[EN 301 549]], [[Real Decreto 1112-2018]], [[WCAG 3.0 (borrador)]], [[APCA]] |
 | Implementación | [[Sistema de color en CSS]], [[Paleta de interfaz por capas de luminosidad]] |
-| Verificación | [[Verificación de contraste]] |
+| Verificación | [[Verificación de contraste]], [[Checklist de color para desarrolladores]] |
+| Significado y énfasis | [[Convenciones culturales del color]], [[Jerarquía visual con color]] |
+| Diagnóstico | [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] |
 
 ### Fuentes
 - W3C, *Web Content Accessibility Guidelines (WCAG) 2.2*: <https://www.w3.org/TR/WCAG22/>
@@ -46,3 +48,4 @@ El color en una interfaz no es decoración: codifica jerarquía, estado e identi
 ## Evolution / Updates
 - 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
 - 2026-10-24 · Investigados los apartados 1–4: se añaden al mapa [[Percepción del color]], [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]], [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]], [[Contraste WCAG]] y [[Verificación de contraste]]. Se registran las fuentes en `04_Sources/` y se mantiene la distinción entre hechos verificables y heurísticas de diseño.
+- 2026-10-24 · **Apartados 5–9:** se añaden al mapa [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] y [[Checklist de color para desarrolladores]]. Se enlaza el [[Esquema del Trabajo]].

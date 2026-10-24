@@ -30,5 +30,5 @@ Artículo técnico de InfoQ sobre percepción del color, contraste, deficiencias
 - La tabla de combinaciones «buenas» del artículo es una guía práctica, no una validación WCAG.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Percepción del color]], [[Deficiencia de visión al color]], [[Colores semánticos]], [[Esquemas de color]], [[Contraste WCAG]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Percepción del color]], [[Deficiencia de visión al color]], [[Colores semánticos]], [[Esquemas de color]], [[Contraste WCAG]], [[Convenciones culturales del color]], [[Combinaciones de color (buenas y malas)]]
 - Source History: [[2026-10-24]]

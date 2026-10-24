@@ -48,6 +48,9 @@ Fuente normativa: WCAG 2.2, <https://www.w3.org/TR/WCAG22/>. Guías: <https://ww
 - **Heurística:** «más contraste siempre es mejor» no es exacto; un contraste excesivo también puede fatigar, pero nunca por debajo del umbral aplicable.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Ratio de contraste]], [[Luminancia relativa]], [[Niveles de conformidad WCAG]], [[Uso del color (WCAG 1.4.1)]], [[Verificación de contraste]], [[WebAIM Million 2026]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Ratio de contraste]], [[Luminancia relativa]], [[Niveles de conformidad WCAG]], [[Uso del color (WCAG 1.4.1)]], [[Verificación de contraste]], [[WebAIM Million 2026]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Checklist de color para desarrolladores]]
 - Sources: [[W3C — Understanding SC 1.4.3 Contraste mínimo]], [[WebAIM — Comprobador de contraste]], [[WebAIM — Evaluación de contraste y color]], [[WebAIM Million 2026]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazada con [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] y [[Checklist de color para desarrolladores]] al cerrar los apartados 5–9. Los umbrales no cambian; se mantiene la referencia a WCAG 2.2.

@@ -54,6 +54,9 @@ Fuentes: WebAIM (evaluación) y [[Pope Tech — Color contrast accessibility too
 - **Límite conocido:** ninguna herramienta automática sustituye la revisión manual; WebAIM y Pope Tech lo advierten expresamente.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Contraste WCAG]], [[Ratio de contraste]], [[Luminancia relativa]], [[Deficiencia de visión al color]], [[Color en interfaces web]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Contraste WCAG]], [[Ratio de contraste]], [[Luminancia relativa]], [[Deficiencia de visión al color]], [[Color en interfaces web]], [[Combinaciones de color (buenas y malas)]], [[Errores frecuentes de color]], [[Checklist de color para desarrolladores]]
 - Sources: [[WebAIM — Comprobador de contraste]], [[WebAIM — Evaluación de contraste y color]], [[Pope Tech — Color contrast accessibility tools with examples]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazada con [[Combinaciones de color (buenas y malas)]], [[Errores frecuentes de color]] y [[Checklist de color para desarrolladores]]. Se incorporan los tres casos con ratio calculado de Pope Tech como ejemplos de verificación.

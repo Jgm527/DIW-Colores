@@ -41,6 +41,9 @@ El color no es una propiedad objetiva de la luz ni del píxel: es el resultado d
 - La cifra de que la gente juzga un producto en 90 segundos y que hasta el 90 % de esa valoración es color es una cita secundaria de un instituto privado, no un dato normativo. Fuentes: CareerFoundry y SeedProd.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Deficiencia de visión al color]], [[Modelos de color]], [[Color de marca]], [[Colores semánticos]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Deficiencia de visión al color]], [[Modelos de color]], [[Color de marca]], [[Colores semánticos]], [[Convenciones culturales del color]], [[Jerarquía visual con color]]
 - Sources: [[InfoQ — Colors and the UI]], [[CareerFoundry — Teoría del color y paletas]], [[SeedProd — Teoría del color en diseño web]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadidos los enlaces a [[Convenciones culturales del color]] y [[Jerarquía visual con color]] al investigar los apartados 5–6. Se mantiene la distinción entre percepción (hecho) y asociación cultural (heurística).

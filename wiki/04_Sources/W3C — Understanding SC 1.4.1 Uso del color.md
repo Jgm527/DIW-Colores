@@ -8,10 +8,10 @@ last_sync: 2026-10-24
 Página informativa de W3C/WAI sobre el criterio 1.4.1 *Use of Color*. Explica cuándo el color no puede ser el único portador de información. Leída el 2026-10-24.
 
 ## Core Context & Architectural Rules
-- **URL:** <https://w3c.github.io/wcag/understanding/use-of-color>
-- **Tipo:** oficial (W3C/WAI; editor’s draft de la documentación de Understanding).
+- **URL:** <https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html>
+- **Tipo:** oficial (W3C/WAI, documentación Understanding de WCAG 2.2).
 - **Apartados del Tema 3:** 4 (relación con contraste), 5 (significado y uso), 6 (destacar información), 7 (errores), 8 (buenas y malas combinaciones), 9 (recomendaciones).
-- **Estado de lectura:** leída.
+- **Estado de lectura:** leída (releída el 2026-10-24 en la versión de WCAG 2.2).
 
 ### Hechos verificables
 - El criterio exige que el color no sea el único medio visual para transmitir información, indicar una acción, pedir una respuesta o distinguir un elemento.
@@ -25,7 +25,7 @@ Página informativa de W3C/WAI sobre el criterio 1.4.1 *Use of Color*. Explica c
 
 ### Límites
 - No fija una paleta concreta ni una lista de colores «correctos»: es un criterio de comportamiento.
-- La fecha de actualización del documento consultado es de 2026, pero sigue siendo documentación informativa.
+- La página es documentación informativa de WCAG 2.2 (actualizada en septiembre de 2025); no es el texto normativo, que está en <https://www.w3.org/TR/WCAG22/#use-of-color>.
 
 ## Linked Nodes
 - Related: [[Index]], [[Hoja de Ruta]], [[Uso del color (WCAG 1.4.1)]], [[Color en interfaces web]], [[Deficiencia de visión al color]], [[Colores semánticos]], [[Contraste WCAG]]

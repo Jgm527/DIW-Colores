@@ -49,6 +49,9 @@ Fuentes: CareerFoundry, <https://careerfoundry.com/en/blog/ui-design/introductio
 - **Heurística:** que un esquema sea «agradable» o «profesional» es una valoración de diseño; varía con el público y la cultura.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Paleta de colores]], [[Percepción del color]], [[Color de marca]], [[Regla 60-30-10]], [[Contraste WCAG]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Paleta de colores]], [[Percepción del color]], [[Color de marca]], [[Regla 60-30-10]], [[Contraste WCAG]], [[Combinaciones de color (buenas y malas)]], [[Errores frecuentes de color]]
 - Sources: [[CareerFoundry — Teoría del color y paletas]], [[SeedProd — Teoría del color en diseño web]], [[InfoQ — Colors and the UI]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazada con [[Combinaciones de color (buenas y malas)]] y [[Errores frecuentes de color]] al tratar los apartados 7–8. Se recuerda que los esquemas describen relaciones de tono, no contraste de luminancia.

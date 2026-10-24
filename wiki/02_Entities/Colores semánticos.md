@@ -38,6 +38,9 @@ Los colores semánticos son colores con un significado asignado y estable dentro
 - **Heurística:** qué tono exacto usar para cada estado es una decisión de diseño; no hay un hex normativo.
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Uso del color (WCAG 1.4.1)]], [[Deficiencia de visión al color]], [[Roles de color (Material Design 3)]], [[Color de marca]], [[Contraste WCAG]]
-- Sources: [[W3C — Understanding SC 1.4.1 Uso del color]], [[Android — Color en Wear OS]], [[InfoQ — Colors and the UI]], [[SeedProd — Teoría del color en diseño web]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Uso del color (WCAG 1.4.1)]], [[Deficiencia de visión al color]], [[Roles de color (Material Design 3)]], [[Color de marca]], [[Contraste WCAG]], [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Checklist de color para desarrolladores]]
+- Sources: [[W3C — Understanding SC 1.4.1 Uso del color]], [[Android — Color en Wear OS]], [[Material Design 3 — Color roles]], [[InfoQ — Colors and the UI]], [[SeedProd — Teoría del color en diseño web]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadidos los enlaces a [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]] y [[Checklist de color para desarrolladores]] al investigar los apartados 5–9. Se incorpora [[Material Design 3 — Color roles]] como fuente oficial de los roles semánticos (error incluido).

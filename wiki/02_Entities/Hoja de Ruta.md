@@ -115,12 +115,12 @@ Se valorará especialmente **mostrar ejemplos prácticos y visuales**.
 - [x] Investigar el apartado 2: colores principales, secundarios y de apoyo.
 - [x] Investigar el apartado 3: creación de paletas de colores.
 - [x] Investigar el apartado 4: contraste.
-- [ ] Investigar el apartado 5: significado y uso de los colores.
-- [ ] Investigar el apartado 6: utilización del color para destacar información.
-- [ ] Investigar el apartado 7: errores frecuentes.
-- [ ] Investigar el apartado 8: ejemplos de buenas y malas combinaciones.
-- [ ] Investigar el apartado 9: recomendaciones prácticas.
-- [x] Reunir **al menos 2 fuentes técnicas, especializadas u oficiales** además de las ya trabajadas en la bóveda (hay 7 leídas; ver tabla de fuentes).
+- [x] Investigar el apartado 5: significado y uso de los colores.
+- [x] Investigar el apartado 6: utilización del color para destacar información.
+- [x] Investigar el apartado 7: errores frecuentes.
+- [x] Investigar el apartado 8: ejemplos de buenas y malas combinaciones.
+- [x] Investigar el apartado 9: recomendaciones prácticas.
+- [x] Reunir **al menos 2 fuentes técnicas, especializadas u oficiales** (hay 9 leídas; ver tabla de fuentes).
 - [x] Registrar cada fuente con URL y fecha de consulta en `04_Sources/`.
 - [x] Contrastar los datos y separar hechos verificables de opiniones.
 
@@ -135,6 +135,7 @@ Se valorará especialmente **mostrar ejemplos prácticos y visuales**.
 - [ ] Comprobar que las figuras se leen bien en el PDF final.
 
 #### Fase 3 · Redacción de los apartados del Tema 3
+- [x] Acordar el **esquema del trabajo escrito**: índice, presupuesto de palabras, fuentes y figuras ([[Esquema del Trabajo]]).
 - [ ] Redactar el apartado 1: Importancia del color en una interfaz.
 - [ ] Redactar el apartado 2: Colores principales, secundarios y de apoyo.
 - [ ] Redactar el apartado 3: Creación de paletas de colores.
@@ -194,11 +195,11 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho.
 | 2 | Colores principales, secundarios y de apoyo | 🔄 investigación hecha; redacción pendiente | — |
 | 3 | Creación de paletas de colores | 🔄 investigación hecha; redacción pendiente | — |
 | 4 | Contraste | 🔄 investigación hecha; redacción pendiente | — |
-| 5 | Significado y uso de los colores | ⬜ | — |
-| 6 | Utilización del color para destacar información | ⬜ | — |
-| 7 | Errores frecuentes | ⬜ | — |
-| 8 | Ejemplos de buenas y malas combinaciones | ⬜ | — |
-| 9 | Recomendaciones prácticas | ⬜ | — |
+| 5 | Significado y uso de los colores | 🔄 investigación hecha; redacción pendiente | — |
+| 6 | Utilización del color para destacar información | 🔄 investigación hecha; redacción pendiente | — |
+| 7 | Errores frecuentes | 🔄 investigación hecha; redacción pendiente | — |
+| 8 | Ejemplos de buenas y malas combinaciones | 🔄 investigación hecha; redacción pendiente | — |
+| 9 | Recomendaciones prácticas | 🔄 investigación hecha; redacción pendiente | — |
 
 ### d) Seguimiento de las 8 preguntas tipo test
 
@@ -215,13 +216,15 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho.
 
 ### e) Fuentes
 
-Solo se registran fuentes aportadas por el usuario. No se añaden URLs ni obras no proporcionadas. Todas consultadas el 2026-10-24.
+Solo se registran fuentes aportadas por el usuario y fuentes oficiales consultadas directamente. Cada fuente tiene su URL en la nota correspondiente de `04_Sources/`. Todas consultadas el 2026-10-24.
 
 | Fuente | Tipo | Leída | Nota en `04_Sources/` |
 | --- | --- | --- | --- |
 | `PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf` — «Proyecto: Manual de diseño de interfaces web para desarrolladores» (versión completa) | Oficial (pautas del proyecto) | Sí — documento de referencia vigente | — |
 | W3C — Understanding SC 1.4.3 *Contrast (Minimum)* | Oficial (W3C/WAI) | Sí | [[W3C — Understanding SC 1.4.3 Contraste mínimo]] |
-| W3C — Understanding SC 1.4.1 *Use of Color* | Oficial (W3C/WAI) | Sí | [[W3C — Understanding SC 1.4.1 Uso del color]] |
+| W3C — Understanding SC 1.4.1 *Use of Color* | Oficial (W3C/WAI) | Sí — releída en la versión WCAG 2.2 | [[W3C — Understanding SC 1.4.1 Uso del color]] |
+| W3C — *What's New in WCAG 2.2* | Oficial (W3C/WAI) | Sí | [[W3C — What's New in WCAG 2.2]] |
+| Material Design 3 — *Color roles* | Oficial (sistema de diseño) | Sí | [[Material Design 3 — Color roles]] |
 | Android Developers — Color en Wear OS (Material 3) | Oficial (Google/Android) | Sí | [[Android — Color en Wear OS]] |
 | ServiceNow Horizon — Color overview | Oficial (sistema de diseño) | **No** — HTTP 403 | [[ServiceNow — Color overview]] |
 | WebAIM — Contrast Checker | Técnica (herramienta) | Sí | [[WebAIM — Comprobador de contraste]] |
@@ -238,7 +241,7 @@ Solo se registran fuentes aportadas por el usuario. No se añaden URLs ni obras 
 | UX Questions — *How should I choose colors for UI design?* (YouTube) | Vídeo | **No visualizado** | [[UX Questions — How should I choose colors for UI design]] |
 | DesignerUp — *How to choose colors and color palettes* | Vídeo | **No visualizado** | [[DesignerUp — How to choose colors and color palettes]] |
 
-**Recuento de fuentes técnicas u oficiales leídas:** 7 (W3C 1.4.3, W3C 1.4.1, Android Wear, WebAIM Contrast Checker, WebAIM Evaluating, InfoQ y WebAIM Million 2026). El mínimo exigido es 2, por lo que se cumple con margen.
+**Recuento de fuentes técnicas u oficiales leídas:** 9 (W3C 1.4.3, W3C 1.4.1, W3C What's New 2.2, Material Design 3 Color roles, Android Wear, WebAIM Contrast Checker, WebAIM Evaluating, InfoQ y WebAIM Million 2026). El mínimo exigido es 2, por lo que se cumple con margen.
 
 **Fuentes no leídas:** ServiceNow (403), los tres vídeos de YouTube/DesignerUp (no visualizados) y los vídeos incrustados de Pope Tech. No se resume su contenido.
 
@@ -260,7 +263,7 @@ Solo se registran fuentes aportadas por el usuario. No se añaden URLs ni obras 
 > **Cerradas el 2026-10-24:** la **fecha de entrega** (no se tendrá en cuenta y se retira de todas las notas), la **versión vigente de las pautas** y la **localización de `pautas_proyecto_tema3.pdf`**. El documento de referencia es el PDF completo `04_Sources/PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf`.
 
 ## Linked Nodes
-- Related: [[Index]], [[Color en interfaces web]], [[Modelos de color]], [[OKLCH]], [[Ratio de contraste]], [[Uso del color (WCAG 1.4.1)]], [[Contraste WCAG]], [[Paleta de colores]], [[Percepción del color]]
+- Related: [[Index]], [[Color en interfaces web]], [[Modelos de color]], [[OKLCH]], [[Ratio de contraste]], [[Uso del color (WCAG 1.4.1)]], [[Contraste WCAG]], [[Paleta de colores]], [[Percepción del color]], [[Esquema del Trabajo]], [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Checklist de color para desarrolladores]]
 - Source History: [[2026-10-24]]
 
 ## Evolution / Updates
@@ -276,3 +279,4 @@ Solo se registran fuentes aportadas por el usuario. No se añaden URLs ni obras 
   - Se amplía la prohibición de copiar preguntas a **herramientas de IA** y se registra que el PDF incluye un **ejemplo de pregunta tipo test**.
   - El **vídeo** pasa de «requisito confirmado externamente» a contenido del propio PDF.
   - Se **eliminan todas las referencias a la fecha de entrega** y se cierran las preguntas sobre versión vigente y localización del fichero.
+- 2026-10-24 · **Decisiones y apartados 5–9 investigados.** Se unifican las citas a **WCAG 2.2** y se documenta en [[Niveles de conformidad WCAG]] que 1.4.1 y 1.4.3 no cambian. Se lee la documentación web oficial de **Material Design 3 — Color roles**, que sustituye las cautelas basadas solo en Wear OS. Se crean [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] y [[Checklist de color para desarrolladores]]; los apartados 5–9 pasan a 🔄. Se acuerda el [[Esquema del Trabajo]] con índice, presupuesto de 1.670 palabras y cinco figuras pendientes. Nuevas fuentes registradas: [[Material Design 3 — Color roles]] y [[W3C — What's New in WCAG 2.2]] (9 fuentes técnicas u oficiales leídas).

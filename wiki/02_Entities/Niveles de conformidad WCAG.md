@@ -39,12 +39,20 @@ WCAG 2.2 no deroga 2.1 ni 2.0. Contenido conforme a 2.2 también lo es a 2.1 y 2
 
 Fuente: <https://www.w3.org/WAI/standards-guidelines/wcag/>
 
+### Versión adoptada en este proyecto: WCAG 2.2
+- **Decisión (2026-10-24):** todas las citas del Tema 3 se unifican a **WCAG 2.2**, publicada como Recommendation el 5 de octubre de 2023.
+- **Por qué:** es la versión vigente recomendada por el W3C y la que se alinea con la norma armonizada europea [[EN 301 549]].
+- **Efecto sobre los criterios de color:** WCAG 2.2 añade nueve criterios nuevos respecto a 2.1, pero los criterios **1.4.1 *Use of Color* y 1.4.3 *Contrast (Minimum)* no cambian**. El único criterio eliminado de 2.0/2.1 es 4.1.1 *Parsing*, que no afecta al color.
+- Fuente: W3C, *What's New in WCAG 2.2*: <https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/>
+- Fuente normativa: <https://www.w3.org/TR/WCAG22/>
+
 ### ISO
 WCAG 2.2 (texto de octubre de 2023) es [[ISO/IEC 40500]] :2025.
 
 ## Linked Nodes
-- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[WCAG-EM]], [[EN 301 549]], [[ISO/IEC 40500]], [[Declaración de accesibilidad]], [[WCAG 3.0 (borrador)]]
+- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[WCAG-EM]], [[EN 301 549]], [[ISO/IEC 40500]], [[Declaración de accesibilidad]], [[WCAG 3.0 (borrador)]], [[Checklist de color para desarrolladores]]
 - Source History: [[2026-10-22]], [[2026-10-24]]
 
 ## Evolution / Updates
 - 2026-10-24 · Enlazado con [[Contraste WCAG]] para situar los umbrales de color dentro de los niveles A/AA/AAA.
+- 2026-10-24 · **Versión unificada a WCAG 2.2.** Se documenta la decisión y se verifica que 1.4.1 y 1.4.3 no cambian respecto a 2.1; se cita *What's New in WCAG 2.2*. Se enlaza el [[Checklist de color para desarrolladores]].

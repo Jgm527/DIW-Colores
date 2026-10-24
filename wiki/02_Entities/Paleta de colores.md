@@ -47,6 +47,9 @@ Una paleta de colores es el conjunto limitado y documentado de colores que usa u
 - **Heurística:** el reparto 60-30-10 es una guía de proporciones, no un estándar. Ver [[Regla 60-30-10]].
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Esquemas de color]], [[Roles de color (Material Design 3)]], [[Color de marca]], [[Regla 60-30-10]], [[Modelos de color]], [[OKLCH]], [[Verificación de contraste]]
-- Sources: [[CareerFoundry — Teoría del color y paletas]], [[SeedProd — Teoría del color en diseño web]], [[Bootcamp — Regla 60-30-10]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Esquemas de color]], [[Roles de color (Material Design 3)]], [[Color de marca]], [[Regla 60-30-10]], [[Modelos de color]], [[OKLCH]], [[Verificación de contraste]], [[Jerarquía visual con color]], [[Checklist de color para desarrolladores]]
+- Sources: [[CareerFoundry — Teoría del color y paletas]], [[SeedProd — Teoría del color en diseño web]], [[Bootcamp — Regla 60-30-10]], [[Material Design 3 — Color roles]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadidos [[Jerarquía visual con color]] y [[Checklist de color para desarrolladores]]. Se incorpora Material Design 3 como referencia para la asignación de roles y se refuerza la distinción entre paleta (conjunto) y rol (función).

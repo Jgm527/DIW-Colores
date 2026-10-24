@@ -36,6 +36,9 @@ El color de marca es el color (o pequeño conjunto de colores) que identifica a 
 - **Heurística:** la idea de que el color de marca debe ocupar aproximadamente el 30 % de la interfaz procede de la regla 60-30-10, difundida en blogs; no es un estándar. Ver [[Regla 60-30-10]].
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Roles de color (Material Design 3)]], [[Paleta de colores]], [[Regla 60-30-10]], [[Colores semánticos]], [[OKLCH]]
-- Sources: [[Android — Color en Wear OS]], [[CareerFoundry — Teoría del color y paletas]], [[SeedProd — Teoría del color en diseño web]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Roles de color (Material Design 3)]], [[Paleta de colores]], [[Regla 60-30-10]], [[Colores semánticos]], [[OKLCH]], [[Jerarquía visual con color]], [[Convenciones culturales del color]], [[Checklist de color para desarrolladores]]
+- Sources: [[Android — Color en Wear OS]], [[Material Design 3 — Color roles]], [[CareerFoundry — Teoría del color y paletas]], [[SeedProd — Teoría del color en diseño web]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazada con [[Jerarquía visual con color]], [[Convenciones culturales del color]] y [[Checklist de color para desarrolladores]]. Se añade Material Design 3 como fuente de roles y se recuerda que el color de marca no exime del contraste.

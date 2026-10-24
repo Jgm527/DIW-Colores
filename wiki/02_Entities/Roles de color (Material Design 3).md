@@ -10,10 +10,11 @@ Un rol de color es una función asignada a un color dentro de un sistema de dise
 ## Core Context & Architectural Rules
 
 ### Qué es (según la documentación oficial)
-- El sistema de color de Material 3 mantiene **tres colores de acento** y **dos colores de superficie neutros**, y añade **roles de contenedor** dentro de los roles de acento. Fuente: Android Developers, *Color en Wear OS*: <https://developer.android.com/design/ui/wear/guides/styles/color?hl=es>
-- Los roles de contenedor permiten variar la superficie con más croma sin romper la jerarquía visual; se usan para estados y diseños complementarios.
-- La página afirma que hay **más de 28 roles** asignados a componentes de Material.
-- Los tokens se adaptan al tema (claro/oscuro) y a la pantalla; Wear OS parte de fondo negro para funcionar de día y de noche.
+- Material Design 3 define **26 roles estándar** agrupados en **seis familias**: primary, secondary, tertiary, error, surface y outline. Fuente principal: <https://m3.material.io/styles/color/roles> ([[Material Design 3 — Color roles]]).
+- Los roles están **asociados a los componentes** y se implementan mediante **tokens**; los componentes propios deben mapearse a esos roles.
+- El sistema se apoya en **emparejamientos accesibles**: la propia página afirma que sus pares de roles proporcionan un **mínimo de 3:1**. Para texto normal sigue aplicando el 4.5:1 de [[Contraste mínimo (WCAG 1.4.3)]].
+- Los roles **container** son rellenos de componentes y **no deben usarse para texto ni iconos**; los roles **on** son el texto o icono que va encima de su color emparejado.
+- La documentación de Android para Wear OS mantiene la misma lógica de roles y añade el contexto de pantalla pequeña y fondo negro: <https://developer.android.com/design/ui/wear/guides/styles/color?hl=es>.
 
 ### Por qué importa
 - Separa **decisión semántica** (qué función cumple el color) de **valor concreto** (qué hexadecimal se usa).
@@ -36,10 +37,14 @@ Un rol de color es una función asignada a un color dentro de un sistema de dise
 - **Mala:** un componente con colores escritos a mano (`#1A73E8`, `#E8F0FE`) que no cambia con el tema oscuro y duplica valores.
 
 ### Límites de la fuente
-- La documentación consultada es de Wear OS, no una norma web. Los nombres y el fondo negro no se trasladan automáticamente a una interfaz de escritorio.
+- La fuente principal ya es la documentación **web** de Material Design 3, no solo Wear OS. Wear OS se conserva como contexto complementario de pantalla pequeña.
+- El **3:1** de los emparejamientos de Material no sustituye el **4.5:1** de WCAG para texto normal; hay que verificar cada par con [[Verificación de contraste]].
 - ServiceNow Horizon también documenta color, pero no se pudo leer (403); no se usa como fuente. Ver [[ServiceNow — Color overview]].
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Color de marca]], [[Paleta de colores]], [[Colores semánticos]], [[Contraste WCAG]]
-- Sources: [[Android — Color en Wear OS]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color de marca]], [[Paleta de colores]], [[Colores semánticos]], [[Jerarquía visual con color]], [[Contraste WCAG]]
+- Sources: [[Material Design 3 — Color roles]], [[Android — Color en Wear OS]]
 - Source History: [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · **Sustituida la cautela basada en Wear OS.** Se leyó la página oficial de roles de Material Design 3 y se actualizan las cifras (26 roles estándar, seis familias), la función de primary/secondary/tertiary y la advertencia sobre container y texto. Se mantiene Wear OS como fuente complementaria y se enlaza [[Jerarquía visual con color]].
