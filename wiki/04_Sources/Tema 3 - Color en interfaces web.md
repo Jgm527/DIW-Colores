@@ -48,7 +48,7 @@ El color de marca suele servir como punto de partida para generar el resto de la
 
 ### 3.3. Escalas con un modelo perceptualmente uniforme (HSL frente a OKLCH)
 
-Tradicionalmente, HSL se ha utilizado para generar variaciones de color, pero presenta limitaciones en cuanto a uniformidad perceptiva. Modelos más modernos, como OKLCH, permiten crear escalas con mayor coherencia visual entre tonos, lo cual resulta especialmente útil al generar paletas completas. Aun así, sea cual sea el modelo elegido, los valores resultantes deben verificarse con herramientas de contraste [[OKLCH]][[Paleta de colores]].
+Tradicionalmente, HSL se ha utilizado para generar variaciones de color, pero presenta limitaciones en cuanto a uniformidad perceptiva. Según el vídeo de divulgación *The Easy Way to Pick UI Colors* de Sajid, LCH/OKLCH ofrecen variaciones de luminosidad más uniformes frente a HSL, aunque esto es una afirmación del autor y **queda pendiente de verificar** con fuentes oficiales. Aun así, sea cual sea el modelo elegido, los valores resultantes deben verificarse con herramientas de contraste [[OKLCH]][[Paleta de colores]].
 
 ### 3.4. La proporción 60-30-10 como heurística, no como norma
 

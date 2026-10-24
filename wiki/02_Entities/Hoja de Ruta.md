@@ -237,8 +237,8 @@ Solo se registran fuentes aportadas por el usuario y fuentes oficiales consultad
 | Priority Pixels — resumen del WebAIM Million 2026 | Divulgación | Sí | [[Priority Pixels — WebAIM Million 2026]] |
 | Horlix — resumen del WebAIM Million 2026 | Divulgación especializada | Sí | [[Horlix — WebAIM Million 2026]] |
 | Pope Tech — *Color contrast accessibility tools with examples* | Divulgación técnica | Texto sí; vídeos incrustados no visualizados | [[Pope Tech — Color contrast accessibility tools with examples]] |
-| Sajid — *The Easy Way to Pick UI Colors* (YouTube) | Vídeo | **No visualizado** | [[Sajid — The Easy Way to Pick UI Colors]] |
-| UX Questions — *How should I choose colors for UI design?* (YouTube) | Vídeo | **No visualizado** | [[UX Questions — How should I choose colors for UI design]] |
+| Sajid — *The Easy Way to Pick UI Colors* (YouTube) | Vídeo de divulgación | **Transcripción propia (vídeo visto)** | [[Sajid — The Easy Way to Pick UI Colors]] |
+| UI Colors — *iamsajid.com/ui-colors/* (herramienta web) | Herramienta web (divulgación) | **Descripción propia (v1.1.0, capturas)** | [[UI Colors (herramienta)]] |
 | DesignerUp — *How to choose colors and color palettes* | Vídeo | **No visualizado** | [[DesignerUp — How to choose colors and color palettes]] |
 
 **Recuento de fuentes técnicas u oficiales leídas:** 9 (W3C 1.4.3, W3C 1.4.1, W3C What's New 2.2, Material Design 3 Color roles, Android Wear, WebAIM Contrast Checker, WebAIM Evaluating, InfoQ y WebAIM Million 2026). El mínimo exigido es 2, por lo que se cumple con margen.

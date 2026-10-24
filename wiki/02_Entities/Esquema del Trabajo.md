@@ -97,7 +97,7 @@ Se toma como referencia **350 palabras por folio** (rango 300–400), Arial 12 e
 | --- | --- | --- | --- |
 | 1 | [[Color en interfaces web]], [[Percepción del color]], [[WebAIM Million 2026]] | WebAIM Million 2026; InfoQ; W3C 1.4.3 | Ninguna o detalle de la figura 3 |
 | 2 | [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]], [[Paleta de colores]] | Material Design 3 — Color roles; Android Wear; CareerFoundry | Fig. 1 (paleta con roles) |
-| 3 | [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]], [[OKLCH]], [[Modelos de color]] | CareerFoundry; SeedProd; Bootcamp; Material 3 | Fig. 1 (paleta propia 60-30-10) |
+| 3 | [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]], [[OKLCH]], [[Modelos de color]], [[Sajid — The Easy Way to Pick UI Colors]], [[UI Colors (herramienta)]] | CareerFoundry; SeedProd; Bootcamp; Material 3; Sajid (vídeo de divulgación, transcripción propia); UI Colors (herramienta web, v1.1.0, descripción propia) | Fig. 1 (paleta propia 60-30-10); Fig. A (rueda HSL Sajid_Paleta_Colores_HSL-1_11.png); Fig. B (UI Colors sajid_web_ui-colors_01_paleta.png); Fig. C (UI Colors sajid_web_ui-colors_02_codigo.png) |
 | 4 | [[Contraste WCAG]], [[Ratio de contraste]], [[Luminancia relativa]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Verificación de contraste]] | W3C 1.4.3 y 1.4.11; WebAIM checker; WebAIM evaluating | Fig. 2 (WebAIM) |
 | 5 | [[Colores semánticos]], [[Convenciones culturales del color]], [[Percepción del color]] | InfoQ; SeedProd; CareerFoundry; W3C 1.4.1 | Fig. 3 (estados con icono y texto) |
 | 6 | [[Jerarquía visual con color]], [[Uso del color (WCAG 1.4.1)]], [[Roles de color (Material Design 3)]], [[Deficiencia de visión al color]] | W3C 1.4.1; Material 3; InfoQ | Fig. 3 y Fig. 5 (daltonismo) |
@@ -123,6 +123,12 @@ Los elabora el autor con capturas reales. En cada pie de figura hay que anotar *
 5. **Simulación de daltonismo.**
    - Contenido: la interfaz de la figura 3 o 4 vista con un simulador de deuteranopia/protanopia.
    - Procedencia: **captura propia** generada con la herramienta X (anotar nombre y URL); indicar de qué figura es la simulación y que el resultado depende del simulador.
+
+**Figuras adicionales propuestas (del vídeo de Sajid y de UI Colors):**
+- **Fig. A — Rueda HSL (Sajid, 1:11):** `![[Sajid_Paleta_Colores_HSL-1_11.png]]` — Rueda con Hue/Saturation/Lightness y matices (rojo 0, amarillo 60, verde 120, cian 180, azul 240, magenta 300). *Procedencia:* captura propia a partir del vídeo [[Sajid — The Easy Way to Pick UI Colors]] (minuto 1:11), transcripción propia. Se usa en el apartado 3.3 para explicar HSL.
+- **Fig. B — Paleta UI Colors (web):** `![[sajid_web_ui-colors_01_paleta.png]]` — Panel con deslizadores Neutral–Vivid (0,05) y Warmer–Cooler (264), grupos Background/Text/Border/Action/Alert. *Procedencia:* captura propia realizada el 2026-10-24 con la herramienta [[UI Colors (herramienta)]] versión v1.1.0; descripción propia del uso.
+- **Fig. C — Código generado (UI Colors):** `![[sajid_web_ui-colors_02_codigo.png]]` — Panel "Show Code" con selector OKLCH/HSL/Theme y variables CSS por función. *Procedencia:* captura propia realizada el 2026-10-24 con la herramienta [[UI Colors (herramienta)]] versión v1.1.0; descripción propia del uso.
+- **Fig. D — Comparación LCH/OKLCH (opcional):** `![[Sajid_Diferencia_LCH_OKLCH-8_26.png]]` — Mismo amarillo en LCH, OKLCH y HSL. *Procedencia:* captura propia a partir del vídeo [[Sajid — The Easy Way to Pick UI Colors]] (minuto 8:26), transcripción propia. Carácter opcional.
 
 ### Orden de redacción recomendado
 1. Apartados 1 y 4: fijan el marco y los umbrales.

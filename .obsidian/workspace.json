@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
+                "file": "wiki/02_Entities/Hoja de Ruta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 3 - Color en interfaces web"
+              "title": "Hoja de Ruta"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
+                "file": "wiki/02_Entities/Hoja de Ruta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
+                "file": "wiki/02_Entities/Hoja de Ruta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
+                "file": "wiki/02_Entities/Hoja de Ruta.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +190,19 @@
   },
   "active": "cbd47ad891e4c1ff",
   "lastOpenFiles": [
-    "wiki/04_Sources/Material Design 3 — Color roles.md",
+    "wiki/02_Entities/UI Colors (herramienta).md",
+    "wiki/04_Sources/The_Easy_Way_to_Pick_UI_Colors.txt",
+    "wiki/04_Sources/adjuntos/sajid_web_ui-colors_02_paleta.png",
+    "wiki/04_Sources/adjuntos/sajid_web_ui-colors_01_paleta.png",
+    "wiki/04_Sources/adjuntos/Sajid_Diferencia_LCH_OKLCH-8.26.png",
+    "wiki/04_Sources/adjuntos/Sajid_-8.26.png",
+    "wiki/04_Sources/adjuntos/Sajid_Paleta_Colores_HSL-1.11.png",
+    "wiki/04_Sources/adjuntos/Sajid-1.11.png",
+    "wiki/04_Sources/adjuntos/Sajid-8.26.png",
+    "wiki/04_Sources/adjuntos",
+    "wiki/04_Sources/Nueva carpeta",
     "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
+    "wiki/04_Sources/Material Design 3 — Color roles.md",
     "wiki/02_Entities/Hoja de Ruta.md",
     "wiki/04_Sources/W3C — What's New in WCAG 2.2.md",
     "wiki/02_Entities/Esquema del Trabajo.md",

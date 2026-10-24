@@ -42,3 +42,4 @@ Un modelo de color es una forma de codificar colores numéricamente. En la web c
 ## Evolution / Updates
 - 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
 - 2026-10-24 · Enlazado con [[Paleta de colores]] y [[Esquemas de color]]: se confirma que los esquemas cromáticos describen relaciones de tono y no garantizan contraste de luminancia; para construir rampas se mantiene la recomendación de OKLCH.
+- 2026-10-24 · Ampliada con aportes del vídeo [[Sajid — The Easy Way to Pick UI Colors]]: distinción práctica entre HSL (hue/saturation/lightness) para crear escalas intuitivas y LCH/OKLCH para mayor uniformidad perceptiva. Se enlaza con [[UI Colors (herramienta)]]. Marcado como divulgativo; prevalecen las fuentes oficiales (WCAG/WebAIM).
