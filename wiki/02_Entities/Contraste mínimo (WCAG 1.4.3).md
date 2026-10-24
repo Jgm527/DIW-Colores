@@ -32,5 +32,9 @@ Placeholder, texto al hover y al foco de teclado, e imágenes de texto destinada
 Understanding pide usar los colores del agente de usuario o de las hojas de estilo, no el píxel antialiasado en pantalla (el autor no controla el suavizado). G18: <https://www.w3.org/WAI/WCAG22/Techniques/general/G18.html>
 
 ## Linked Nodes
-- Related: [[Index]], [[Color en interfaces web]], [[Ratio de contraste]], [[Contraste mejorado (WCAG 1.4.6)]], [[Niveles de conformidad WCAG]], [[EN 301 549]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Color en interfaces web]], [[Contraste WCAG]], [[Ratio de contraste]], [[Contraste mejorado (WCAG 1.4.6)]], [[Verificación de contraste]], [[Niveles de conformidad WCAG]], [[EN 301 549]]
+- Sources: [[W3C — Understanding SC 1.4.3 Contraste mínimo]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadidos [[Contraste WCAG]] y [[Verificación de contraste]] como notas relacionadas y registrada la fuente leída [[W3C — Understanding SC 1.4.3 Contraste mínimo]]. Se confirma que placeholders, hover y foco entran en el criterio y que los ratios no se redondean.

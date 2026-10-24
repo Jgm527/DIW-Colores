@@ -37,5 +37,8 @@ si Cs >  0.03928  →  C = ((Cs + 0.055) / 1.055) ^ 2.4
 - MDN, *Color and luminance*: <https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_Colors_and_Luminance>
 
 ## Linked Nodes
-- Related: [[Index]], [[Ratio de contraste]], [[Modelos de color]], [[OKLCH]], [[Contraste mínimo (WCAG 1.4.3)]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Ratio de contraste]], [[Contraste WCAG]], [[Verificación de contraste]], [[Modelos de color]], [[OKLCH]], [[Contraste mínimo (WCAG 1.4.3)]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazado con [[Contraste WCAG]] y [[Verificación de contraste]]; se mantiene la advertencia de calcular sobre el color compuesto final.

@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-22
+last_sync: 2026-10-24
 ---
 # OKLCH
 
@@ -41,5 +41,9 @@ last_sync: 2026-10-22
 - Björn Ottosson, *A perceptual color space for image processing*: <https://bottosson.github.io/posts/oklab/>
 
 ## Linked Nodes
-- Related: [[Index]], [[Modelos de color]], [[Sistema de color en CSS]], [[Paleta de interfaz por capas de luminosidad]], [[Ratio de contraste]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Modelos de color]], [[Paleta de colores]], [[Color de marca]], [[Sistema de color en CSS]], [[Paleta de interfaz por capas de luminosidad]], [[Ratio de contraste]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
+- 2026-10-24 · Enlazado con [[Paleta de colores]] y [[Color de marca]] como herramienta recomendada para generar variantes y estados con escalones de brillo regulares; se recuerda que no sustituye la [[Verificación de contraste]].

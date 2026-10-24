@@ -43,5 +43,8 @@ Fuente: <https://www.w3.org/WAI/standards-guidelines/wcag/>
 WCAG 2.2 (texto de octubre de 2023) es [[ISO/IEC 40500]] :2025.
 
 ## Linked Nodes
-- Related: [[Index]], [[Contraste mínimo (WCAG 1.4.3)]], [[WCAG-EM]], [[EN 301 549]], [[ISO/IEC 40500]], [[Declaración de accesibilidad]], [[WCAG 3.0 (borrador)]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[WCAG-EM]], [[EN 301 549]], [[ISO/IEC 40500]], [[Declaración de accesibilidad]], [[WCAG 3.0 (borrador)]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazado con [[Contraste WCAG]] para situar los umbrales de color dentro de los niveles A/AA/AAA.

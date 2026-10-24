@@ -28,5 +28,8 @@ Understanding: <https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.ht
 El texto del control sigue yendo por 1.4.3/1.4.6. Un carácter usado como símbolo (p. ej. «×» de cerrar) se trata como no texto y cae en 1.4.11. Fuente: Understanding 1.4.3.
 
 ## Linked Nodes
-- Related: [[Index]], [[Contraste mínimo (WCAG 1.4.3)]], [[Ratio de contraste]], [[Uso del color (WCAG 1.4.1)]], [[Sistema de color en CSS]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[Ratio de contraste]], [[Uso del color (WCAG 1.4.1)]], [[Verificación de contraste]], [[Sistema de color en CSS]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazado con [[Contraste WCAG]] y [[Verificación de contraste]]. Se mantiene el umbral de 3:1 para componentes y gráficos necesarios, y la advertencia sobre trazos ultrafinos.

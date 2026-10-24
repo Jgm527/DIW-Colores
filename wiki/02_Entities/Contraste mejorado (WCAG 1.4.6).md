@@ -26,5 +26,8 @@ Cumplir 1.4.6 implica cumplir 1.4.3. [[EN 301 549]] y el [[Real Decreto 1112-201
 4.499:1 no cumple 4.5:1 (texto grande AAA). Fuente: Understanding 1.4.6.
 
 ## Linked Nodes
-- Related: [[Index]], [[Contraste mínimo (WCAG 1.4.3)]], [[Ratio de contraste]], [[Niveles de conformidad WCAG]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[Ratio de contraste]], [[Verificación de contraste]], [[Niveles de conformidad WCAG]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Enlazado con la nota-mapa [[Contraste WCAG]] y con [[Verificación de contraste]]. No cambian los umbrales (7:1 normal, 4.5:1 grande) ni la regla de no redondeo.

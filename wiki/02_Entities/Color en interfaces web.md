@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-22
+last_sync: 2026-10-24
 ---
 # Color en interfaces web
 
@@ -26,8 +26,10 @@ El color en una interfaz no es decoración: codifica jerarquía, estado e identi
 | --- | --- |
 | Modelos y espacios | [[Modelos de color]], [[OKLCH]] |
 | Medición | [[Luminancia relativa]], [[Ratio de contraste]] |
-| Percepción | [[Deficiencia de visión al color]] |
-| Normativa | [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Uso del color (WCAG 1.4.1)]], [[Niveles de conformidad WCAG]], [[EN 301 549]], [[Real Decreto 1112-2018]], [[WCAG 3.0 (borrador)]], [[APCA]] |
+| Percepción | [[Percepción del color]], [[Deficiencia de visión al color]] |
+| Identidad y roles | [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]] |
+| Paletas | [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]] |
+| Normativa | [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Uso del color (WCAG 1.4.1)]], [[Niveles de conformidad WCAG]], [[EN 301 549]], [[Real Decreto 1112-2018]], [[WCAG 3.0 (borrador)]], [[APCA]] |
 | Implementación | [[Sistema de color en CSS]], [[Paleta de interfaz por capas de luminosidad]] |
 | Verificación | [[Verificación de contraste]] |
 
@@ -38,5 +40,9 @@ El color en una interfaz no es decoración: codifica jerarquía, estado e identi
 - BOE, *Real Decreto 1112/2018*: <https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699>
 
 ## Linked Nodes
-- Related: [[Index]], [[Modelos de color]], [[OKLCH]], [[Ratio de contraste]], [[Niveles de conformidad WCAG]], [[Sistema de color en CSS]], [[Verificación de contraste]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Modelos de color]], [[OKLCH]], [[Ratio de contraste]], [[Niveles de conformidad WCAG]], [[Sistema de color en CSS]], [[Verificación de contraste]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
+- 2026-10-24 · Investigados los apartados 1–4: se añaden al mapa [[Percepción del color]], [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]], [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]], [[Contraste WCAG]] y [[Verificación de contraste]]. Se registran las fuentes en `04_Sources/` y se mantiene la distinción entre hechos verificables y heurísticas de diseño.

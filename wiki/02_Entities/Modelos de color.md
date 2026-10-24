@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-22
+last_sync: 2026-10-24
 ---
 # Modelos de color
 
@@ -35,5 +35,10 @@ Un modelo de color es una forma de codificar colores numéricamente. En la web c
 - Björn Ottosson, *A perceptual color space for image processing* (OKLab): <https://bottosson.github.io/posts/oklab/>
 
 ## Linked Nodes
-- Related: [[Index]], [[Color en interfaces web]], [[OKLCH]], [[Luminancia relativa]], [[Sistema de color en CSS]]
-- Source History: [[2026-10-22]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[OKLCH]], [[Paleta de colores]], [[Esquemas de color]], [[Percepción del color]], [[Luminancia relativa]], [[Sistema de color en CSS]]
+- Sources: [[CareerFoundry — Teoría del color y paletas]], [[InfoQ — Colors and the UI]]
+- Source History: [[2026-10-22]], [[2026-10-24]]
+
+## Evolution / Updates
+- 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
+- 2026-10-24 · Enlazado con [[Paleta de colores]] y [[Esquemas de color]]: se confirma que los esquemas cromáticos describen relaciones de tono y no garantizan contraste de luminancia; para construir rampas se mantiene la recomendación de OKLCH.
