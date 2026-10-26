@@ -137,7 +137,7 @@ Se valorará especialmente **mostrar ejemplos prácticos y visuales**.
 #### Fase 3 · Redacción de los apartados del Tema 3
 - [x] Acordar el **esquema del trabajo escrito**: índice, presupuesto de palabras, fuentes y figuras ([[Esquema del Trabajo]]).
 - [ ] Redactar el apartado 1: Importancia del color en una interfaz.
-- [ ] Redactar el apartado 2: Colores principales, secundarios y de apoyo.
+- [x] Redactar el apartado 2: Colores principales, secundarios y de apoyo.
 - [ ] Redactar el apartado 3: Creación de paletas de colores.
 - [ ] Redactar el apartado 4: Contraste.
 - [ ] Redactar el apartado 5: Significado y uso de los colores.
@@ -192,7 +192,7 @@ Estados: ⬜ pendiente · 🔄 en curso · ✅ hecho.
 | # | Apartado obligatorio | Estado | Fecha de cierre |
 | --- | --- | --- | --- |
 | 1 | Importancia del color en una interfaz | 🔄 investigación hecha; redacción pendiente | — |
-| 2 | Colores principales, secundarios y de apoyo | 🔄 investigación hecha; redacción pendiente | — |
+| 2 | Colores principales, secundarios y de apoyo | 🔄 redactado (≈405 palabras); pendiente recorte | — |
 | 3 | Creación de paletas de colores | 🔄 investigación hecha; redacción pendiente | — |
 | 4 | Contraste | 🔄 investigación hecha; redacción pendiente | — |
 | 5 | Significado y uso de los colores | 🔄 investigación hecha; redacción pendiente | — |
@@ -283,3 +283,4 @@ Solo se registran fuentes aportadas por el usuario y fuentes oficiales consultad
   - Se **eliminan todas las referencias a la fecha de entrega** y se cierran las preguntas sobre versión vigente y localización del fichero.
 - 2026-10-24 · **Decisiones y apartados 5–9 investigados.** Se unifican las citas a **WCAG 2.2** y se documenta en [[Niveles de conformidad WCAG]] que 1.4.1 y 1.4.3 no cambian. Se lee la documentación web oficial de **Material Design 3 — Color roles**, que sustituye las cautelas basadas solo en Wear OS. Se crean [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] y [[Checklist de color para desarrolladores]]; los apartados 5–9 pasan a 🔄. Se acuerda el [[Esquema del Trabajo]] con índice, presupuesto de 1.670 palabras y cinco figuras pendientes. Nuevas fuentes registradas: [[Material Design 3 — Color roles]] y [[W3C — What's New in WCAG 2.2]] (9 fuentes técnicas u oficiales leídas).
 - 2026-10-26 · **Saneamiento:** marcado como confirmado el canal de entrega (Moodle), que constaba en el Journal del 2026-10-24 pero seguía abierto aquí; la pregunta abierta se reformula para el formato del fichero, que sigue sin confirmar. Verificación OKLCH cerrada con MDN en [[OKLCH]] y [[Sajid — The Easy Way to Pick UI Colors]].
+- 2026-10-26 · **Apartado 2 redactado.** Se marca la tarea de la Fase 3 y el seguimiento del apartado 2 pasa a «🔄 redactado (≈405 palabras); pendiente recorte». El índice del [[Esquema del Trabajo]] se alinea con el texto: la introducción absorbe «rol frente a valor hexadecimal», el cierre absorbe «errores típicos» y 2.1–2.3 quedan como los tres colores.

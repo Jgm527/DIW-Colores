@@ -42,18 +42,17 @@ Se toma como referencia **350 palabras por folio** (rango 300–400), Arial 12 e
 - Con 300 palabras/folio el conjunto se acerca a 7 folios; con 400, a 5,5. Ambos caben en el límite.
 - Si el documento se acerca a 8 folios, recortar primero los ejemplos repetidos del apartado 8, no las recomendaciones.
 - Las tablas y los pies de figura cuentan como texto; las figuras no deben usarse para saltarse el límite.
+- **Estado del apartado 2 (2026-10-26):** redactado con unas 405 palabras frente a las 190 presupuestadas. Los tres subapartados y el cierre son los puntos a recortar antes de ajustar la extensión global.
 
 ### Índice y subapartados
 1. **Importancia del color en una interfaz**
    1.1. Las tres funciones: jerarquía, estado e identidad.
    1.2. Legibilidad y accesibilidad: el coste de un color mal elegido.
    1.3. Dato de partida: el texto de bajo contraste en WebAIM Million 2026.
-2. **Colores principales, secundarios y de apoyo**
-   2.1. Rol frente a valor hexadecimal.
-   2.2. Color principal y de acento.
-   2.3. Color secundario.
-   2.4. Colores de apoyo, neutros y semánticos.
-   2.5. Errores típicos al repartir funciones.
+2. **Colores principales, secundarios y de apoyo** (introducción y cierre sin epígrafe: rol frente a valor, errores típicos)
+   2.1. Color principal y de acento.
+   2.2. Color secundario.
+   2.3. Colores de apoyo, neutros y semánticos.
 3. **Creación de paletas de colores**
    3.1. Definir funciones antes de elegir valores.
    3.2. Punto de partida y familias.
@@ -96,7 +95,7 @@ Se toma como referencia **350 palabras por folio** (rango 300–400), Arial 12 e
 | # | Notas de la bóveda | Fuentes que se citan | Figura necesaria |
 | --- | --- | --- | --- |
 | 1 | [[Color en interfaces web]], [[Percepción del color]], [[WebAIM Million 2026]] | WebAIM Million 2026; InfoQ; W3C 1.4.3 | Ninguna o detalle de la figura 3 |
-| 2 | [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]], [[Paleta de colores]] | Material Design 3 — Color roles; Android Wear; CareerFoundry | Fig. 1 (paleta con roles) |
+| 2 | [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]], [[Paleta de colores]], [[Sistema de color en CSS]] | Material Design 3 — Color roles; Android Wear; CareerFoundry; MDN (tokens CSS) | Fig. 1 (paleta con roles) |
 | 3 | [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]], [[OKLCH]], [[Modelos de color]], [[Sajid — The Easy Way to Pick UI Colors]], [[UI Colors (herramienta)]] | CareerFoundry; SeedProd; Bootcamp; Material 3; Sajid (vídeo de divulgación, transcripción propia); UI Colors (herramienta web, v1.1.0, descripción propia) | Fig. 1 (paleta propia 60-30-10); Fig. A (rueda HSL Sajid_Paleta_Colores_HSL-1.11.png); Fig. B (UI Colors sajid_web_ui-colors_01_paleta.png); Fig. C (UI Colors sajid_web_ui-colors_02_paleta.png) |
 | 4 | [[Contraste WCAG]], [[Ratio de contraste]], [[Luminancia relativa]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Verificación de contraste]] | W3C 1.4.3 y 1.4.11; WebAIM checker; WebAIM evaluating | Fig. 2 (WebAIM) |
 | 5 | [[Colores semánticos]], [[Convenciones culturales del color]], [[Percepción del color]] | InfoQ; SeedProd; CareerFoundry; W3C 1.4.1 | Fig. 3 (estados con icono y texto) |
@@ -153,4 +152,5 @@ Los elabora el autor con capturas reales. En cada pie de figura hay que anotar *
 - Source History: [[2026-10-24]]
 
 ## Evolution / Updates
+- 2026-10-26 · **Índice del apartado 2 alineado con el texto redactado.** Se retiran los epígrafes 2.1 «Rol frente a valor hexadecimal» y 2.5 «Errores típicos al repartir funciones», que pasan a introducción y cierre sin título; los antiguos 2.2–2.4 se renumeran como 2.1–2.3. Se añade [[Sistema de color en CSS]] a las notas del apartado 2 y una nota de estado sobre su extensión real (≈405 palabras frente a las 190 previstas).
 - 2026-10-26 · Corregidos los incrustados de las figuras A, C y D para que coincidan con los nombres reales de los ficheros de `04_Sources/adjuntos/` (`Sajid_Paleta_Colores_HSL-1.11.png`, `sajid_web_ui-colors_02_paleta.png`, `Sajid_Diferencia_LCH_OKLCH-8.26.png`). Verificado con las capturas que la Fig. C es el panel «Show Code» (el fichero conserva el sufijo «_paleta» en su nombre).

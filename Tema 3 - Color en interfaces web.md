@@ -16,25 +16,25 @@ El informe primario *WebAIM Million 2026* analiza las portadas del millón de si
 
 ## 2. Colores principales, secundarios y de apoyo
 
-### 2.1. Rol frente a valor hexadecimal
+La diferencia entre un color y un rol no está en el formato, sino en la función. `#0B57D0` es un valor: no indica si puede llevar texto encima ni cómo debe comportarse en modo oscuro. Un rol sí: fija el propósito del color y el de su pareja de contraste, de modo que el par se verifica una sola vez y el tema se cambia sin repintar componente por componente [[Roles de color (Material Design 3)]][[Sistema de color en CSS]].
 
-La diferencia fundamental entre un valor hexadecimal y un rol de color radica en la función. Mientras que un código como `#0B57D0` es un valor, un rol (por ejemplo, *primary* o *on-primary*) define su propósito dentro del sistema. Material Design 3 organiza sus colores en 26 roles estándar agrupados en seis familias (*primary*, *secondary*, *tertiary*, *error*, *surface* y *outline*), asignados a componentes concretos mediante *tokens* [[Roles de color (Material Design 3)]][[Material Design 3 — Color roles]].
+Material Design 3 define 26 roles estándar agrupados en seis familias (*primary*, *secondary*, *tertiary*, *error*, *surface* y *outline*), además de otros como *inverse* o *fixed*. Cada componente del catálogo tiene asignados los roles de su fondo, texto, icono y borde —un botón relleno usa *primary* con *on-primary*—, y los componentes propios deben mapearse a esos roles en lugar de inventar valores nuevos.
 
-### 2.2. Color principal y de acento
+Conviene no confundir ambas clasificaciones: *primary*, *secondary* y *tertiary* indican énfasis funcional dentro de un componente; «principal, secundario y de apoyo» indica peso visual y proporción en la pantalla. Este apartado usa la segunda, con los roles de Material como referencia de implementación.
+
+### 2.1. Color principal y de acento
 
 El color *primary* se reserva a las acciones y elementos más importantes, como botones de alta prioridad o elementos activos. El color *tertiary* actúa como acento para elementos que requieren énfasis especial, pero sin competir con la acción principal. Ambos deben tener pares accesibles con sus correspondientes roles *on-primary* y *on-tertiary* [[Material Design 3 — Color roles]].
 
-### 2.3. Color secundario
+### 2.2. Color secundario
 
 El color *secondary* se utiliza para elementos de menor prominencia, como chips de filtro o estados de selección secundarios. Su función es dar variedad sin restar protagonismo a la acción principal, manteniendo siempre la coherencia jerárquica del sistema [[Roles de color (Material Design 3)]].
 
-### 2.4. Colores de apoyo, neutros y semánticos
+### 2.3. Colores de apoyo, neutros y semánticos
 
 Los colores neutros o de superficie (*surface*) constituyen la base de la interfaz, mientras que los roles *on-surface* se destinan al texto e iconos. Por su parte, los colores semánticos comunican significado funcional: *error* para errores, y, de forma equivalente, se definen roles para éxito, aviso o información. Estos colores nunca deben utilizarse como único canal de comunicación, debiendo ir siempre acompañados de texto, icono o forma [[Colores semánticos]][[Uso del color (WCAG 1.4.1)]].
 
-### 2.5. Errores típicos al repartir funciones
-
-Entre los errores más habituales se encuentran asignar el color primario a demasiados elementos, utilizar roles *container* para texto o iconos (práctica desaconsejada por Material Design 3), o definir colores sueltos sin función documentada. Además, es fundamental recordar que los emparejamientos de roles de Material proporcionan un mínimo de 3:1, pero este valor no sustituye el umbral de 4.5:1 exigido para texto normal por WCAG 2.2 [[Material Design 3 — Color roles]][[Contraste mínimo (WCAG 1.4.3)]].
+Para terminar, los errores más frecuentes son asignar el color principal a demasiados elementos, usar roles *container* para texto o iconos —son rellenos, no superficies de lectura— y definir colores sueltos sin función documentada. Además, los emparejamientos de Material garantizan un mínimo de 3:1, pero ese valor no sustituye el 4,5:1 que WCAG 2.2 exige al texto normal [[Material Design 3 — Color roles]][[Contraste mínimo (WCAG 1.4.3)]].
 
 ## 3. Creación de paletas de colores
 

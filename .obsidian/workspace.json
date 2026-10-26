@@ -11,17 +11,72 @@
             "id": "cbd47ad891e4c1ff",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "wiki/04_Sources/PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES"
+            }
+          },
+          {
+            "id": "299455ea42846771",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/02_Entities/Hoja de Ruta.md",
+                "file": "Esquema del Trabajo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Esquema del Trabajo"
+            }
+          },
+          {
+            "id": "3b73218229025740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hoja de Ruta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Hoja de Ruta"
             }
+          },
+          {
+            "id": "bbb6ce41ce4d98e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tema 3 - Color en interfaces web.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 3 - Color en interfaces web"
+            }
+          },
+          {
+            "id": "111e4f016438b242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/04_Sources/Material Design 3 — Color roles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Material Design 3 — Color roles"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -83,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c63e05f5950b1b00",
@@ -188,10 +244,40 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "cbd47ad891e4c1ff",
+  "active": "bbb6ce41ce4d98e5",
   "lastOpenFiles": [
+    "wiki/04_Sources/PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf",
+    "Esquema del Trabajo.md",
+    "Hoja de Ruta.md",
+    "Tema 3 - Color en interfaces web.md",
+    "wiki/04_Sources/Material Design 3 — Color roles.md",
+    "wiki/04_Sources/WebAIM Million 2026.md",
+    "wiki/02_Entities/Uso del color (WCAG 1.4.1).md",
+    "wiki/02_Entities/Color en interfaces web.md",
+    "web/node_modules/vue/server-renderer/package.json",
+    "web/node_modules/vue/server-renderer/index.mjs",
+    "web/node_modules/vue/server-renderer/index.js",
+    "web/node_modules/vue/server-renderer/index.d.ts",
+    "web/node_modules/vue/server-renderer/index.d.mts",
+    "web/node_modules/vue/server-renderer",
+    "web/node_modules/vue/compiler-sfc/register-ts.js",
+    "web/node_modules/vue/compiler-sfc/package.json",
+    "web/node_modules/vue/compiler-sfc/index.mjs",
+    "web/node_modules/@vue/compiler-dom/README.md",
+    "web/node_modules/@vue/reactivity/README.md",
+    "web/node_modules/nanoid/README.md",
+    "web/node_modules/source-map-js/README.md",
+    "web/node_modules/picomatch/README.md",
+    "web/node_modules/esbuild/README.md",
+    "web/node_modules/@babel/parser/README.md",
+    "web/node_modules/@types/estree/README.md",
+    "web/node_modules/@babel/parser/CHANGELOG.md",
+    "web/node_modules/@babel/helper-validator-identifier/README.md",
+    "README.md",
+    "wiki/02_Entities/Esquema del Trabajo.md",
+    "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
+    "wiki/02_Entities/Hoja de Ruta.md",
     "wiki/02_Entities/UI Colors (herramienta).md",
-    "wiki/04_Sources/The_Easy_Way_to_Pick_UI_Colors.txt",
     "wiki/04_Sources/adjuntos/sajid_web_ui-colors_02_paleta.png",
     "wiki/04_Sources/adjuntos/sajid_web_ui-colors_01_paleta.png",
     "wiki/04_Sources/adjuntos/Sajid_Diferencia_LCH_OKLCH-8.26.png",
@@ -199,21 +285,8 @@
     "wiki/04_Sources/adjuntos/Sajid_Paleta_Colores_HSL-1.11.png",
     "wiki/04_Sources/adjuntos/Sajid-1.11.png",
     "wiki/04_Sources/adjuntos/Sajid-8.26.png",
-    "wiki/04_Sources/adjuntos",
-    "wiki/04_Sources/Nueva carpeta",
-    "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
-    "wiki/04_Sources/Material Design 3 — Color roles.md",
-    "wiki/02_Entities/Hoja de Ruta.md",
     "wiki/04_Sources/W3C — What's New in WCAG 2.2.md",
-    "wiki/02_Entities/Esquema del Trabajo.md",
     "wiki/02_Entities/Checklist de color para desarrolladores.md",
-    "wiki/02_Entities/Combinaciones de color (buenas y malas).md",
-    "wiki/02_Entities/Errores frecuentes de color.md",
-    "wiki/02_Entities/Jerarquía visual con color.md",
-    "wiki/02_Entities/Convenciones culturales del color.md",
-    "wiki/00_Meta/Index.md",
-    "WCAG 3.0 (borrador).md",
-    "wiki/06_Journal/2026-10-24.md",
-    "wiki/02_Entities/Paleta de colores.md"
+    "wiki/02_Entities/Combinaciones de color (buenas y malas).md"
   ]
 }
