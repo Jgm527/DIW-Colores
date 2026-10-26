@@ -1,0 +1,44 @@
+/* ============================================================
+   Tokens de color — generados siguiendo el método de la wiki:
+   OKLCH, roles por función, hue 264 (estilo UI Colors).
+   La propia web es una demo de sus principios.
+   ============================================================ */
+:root {
+  /* Superficies (60 % neutros) */
+  --bg-dark: oklch(0.1 0.02 264);
+  --bg: oklch(0.15 0.022 264);
+  --bg-card: oklch(0.18 0.024 264);
+  --bg-light: oklch(0.22 0.026 264);
+
+  /* Texto */
+  --text: oklch(0.96 0.008 264);
+  --text-muted: oklch(0.76 0.02 264);
+  --text-faint: oklch(0.63 0.025 264);
+
+  /* Bordes (borde superior más claro = luz desde arriba) */
+  --highlight: oklch(0.48 0.03 264);
+  --border: oklch(0.38 0.03 264);
+  --border-muted: oklch(0.29 0.025 264);
+
+  /* Acción (10 % acento) — primario claro + texto oscuro encima:
+     pasa AA como botón (7,5:1) y como enlace sobre fondo (7,9:1) */
+  --primary: oklch(0.72 0.14 264);
+  --on-primary: oklch(0.18 0.04 264);
+  --primary-soft: oklch(0.72 0.14 264 / 0.16);
+  --secondary: oklch(0.78 0.12 44);
+  --on-secondary: oklch(0.25 0.05 44);
+
+  /* Semánticos */
+  --success: oklch(0.72 0.13 150);
+  --warning: oklch(0.78 0.13 85);
+  --danger: oklch(0.68 0.17 25);
+  --info: oklch(0.7 0.1 230);
+
+  --focus-ring: oklch(0.85 0.09 264);
+
+  /* No color */
+  --radius: 14px;
+  --radius-sm: 10px;
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+}
