@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # Ratio de contraste
 
@@ -46,10 +46,11 @@ Understanding 1.4.3 atribuye 3:1 a ISO 9241-3 y ANSI/HFES-100-1988 (visión est�
 Fuente: <https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html>
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Contraste WCAG]], [[Luminancia relativa]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Verificación de contraste]], [[WebAIM Million 2026]], [[APCA]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Contraste WCAG]], [[Luminancia relativa]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Verificación de contraste]], [[WebAIM Million 2026]]
 - Sources: [[W3C — Understanding SC 1.4.3 Contraste mínimo]], [[WebAIM — Comprobador de contraste]]
 - Source History: [[2026-10-22]], [[2026-10-24]]
 
 ## Evolution / Updates
 - 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
 - 2026-10-24 · Enlazado con [[Contraste WCAG]] como nota-mapa, con [[Verificación de contraste]] y con [[WebAIM Million 2026]]. La fórmula y los umbrales no cambian; se confirma que los ratios no se redondean.
+- 2026-10-26 · Limpieza: retirado de Related el enlace a la nota inexistente de APCA (el contexto de WCAG 3 queda como texto plano en [[Luminancia relativa]]).

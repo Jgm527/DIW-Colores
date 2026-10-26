@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/source]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # Sajid — The Easy Way to Pick UI Colors
 
@@ -64,3 +64,4 @@ Sajid propone un enfoque pragmático para paletas de UI: centrarse en **neutros*
 ## Evolution / Updates
 - 2026-10-24 · Actualizada: vídeo visto, transcripción propia añadida (`The_Easy_Way_to_Pick_UI_Colors.txt`). Resumen en español, ideas principales, comparación con notas existentes y análisis de contradicciones/matizaciones. Marcado como fuente de divulgación (no oficial). Autor: Sajid.
 - 2026-10-25 · **Corrección:** En el apartado de contradicciones se aclara que **no hay contradicción constatada** con fuentes oficiales sobre OKLCH, ya que **no hemos leído W3C CSS Color 4 ni MDN en esta sesión**. La afirmación sobre uniformidad perceptiva queda **pendiente de verificar**; solo se puede afirmar lo que dice el vídeo. Se corrige la referencia errónea a esas fuentes (escrita de memoria).
+- 2026-10-26 · **Verificación cerrada.** Leída la página oficial de MDN para `oklch()`: describe su `L` como *perceived lightness* (brillo percibido) y advierte de que es distinta de la `L` de `hsl()`; la especificación de referencia es CSS Color Module Level 4 (apartado *ok-lab*). La afirmación del vídeo sobre mayor uniformidad perceptiva de OKLCH frente a HSL es compatible con la documentación oficial y deja de estar «pendiente de verificar».

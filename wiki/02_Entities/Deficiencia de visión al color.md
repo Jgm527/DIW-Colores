@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # Deficiencia de visión al color
 
@@ -37,7 +37,7 @@ La deficiencia de visión al color (o daltonismo) es una alteración de la perce
 - **Buena:** un gráfico de líneas con colores distintos, además de patrones de trazo y etiquetas directas sobre cada serie.
 - **Mala:** un semáforo de estados donde el único cambio es el color del círculo.
 
-### Hechos frente a heuristics
+### Hechos frente a heurísticas
 - **Hecho verificable:** el criterio 1.4.1 obliga a que el color no sea el único medio visual; es independiente del ratio de contraste. Fuente: <https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html>
 - **Heurística:** la creencia de que «los daltónicos no ven rojo ni verde» es una simplificación; existen varios tipos y grados.
 
@@ -48,3 +48,4 @@ La deficiencia de visión al color (o daltonismo) es una alteración de la perce
 
 ## Evolution / Updates
 - 2026-10-24 · Enlazada con [[Combinaciones de color (buenas y malas)]], [[Errores frecuentes de color]] y [[Checklist de color para desarrolladores]] al tratar los apartados 7–9. Se mantiene la incidencia de InfoQ (2008) con su cautela.
+- 2026-10-26 · Corregido el encabezado «heuristics» → «heurísticas».

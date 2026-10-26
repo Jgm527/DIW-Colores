@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # Uso del color (WCAG 1.4.1)
 
@@ -32,7 +32,7 @@ Técnicas: <https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html>
 El criterio cubre a usuarios videntes que no distinguen ciertos matices, **aunque no usen tecnología de apoyo**. La exposición programática a AT es otro criterio (1.3.1, 4.1.2).
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Contraste WCAG]], [[Deficiencia de visión al color]], [[Colores semánticos]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Ley 11-2023]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Convenciones culturales del color]], [[Checklist de color para desarrolladores]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Color en interfaces web]], [[Contraste WCAG]], [[Deficiencia de visión al color]], [[Colores semánticos]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Convenciones culturales del color]], [[Checklist de color para desarrolladores]]
 - Sources: [[W3C — Understanding SC 1.4.1 Uso del color]]
 - Source History: [[2026-10-22]], [[2026-10-24]]
 
@@ -40,3 +40,4 @@ El criterio cubre a usuarios videntes que no distinguen ciertos matices, **aunqu
 - 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
 - 2026-10-24 · Ampliado con la lectura de Understanding 1.4.1: se confirma que una diferencia de luminancia de 3:1 puede servir como pista adicional, pero no basta cuando hay que reconocer un matiz concreto; se enlazan [[Colores semánticos]], [[Deficiencia de visión al color]] y [[Contraste WCAG]].
 - 2026-10-24 · Releída la página en la versión de **WCAG 2.2** y enlazada con [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Convenciones culturales del color]] y [[Checklist de color para desarrolladores]].
+- 2026-10-26 · Limpieza: retirado de Related el enlace a la nota inexistente de la Ley 11/2023.

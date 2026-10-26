@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # OKLCH
 
@@ -29,6 +29,7 @@ last_sync: 2026-10-24
   --brand-soft: oklch(from var(--brand) 0.92 calc(c * 0.4) h);
   ```
 - **No sustituye a la verificación**: OKLCH no dice si un par texto/fondo cumple WCAG; para eso se calcula el [[Ratio de contraste]] con la [[Luminancia relativa]].
+- **Verificado con MDN (2026-10-26):** la documentación oficial describe la `L` de `oklch()` como *perceived lightness* (brillo percibido) y advierte expresamente de que es distinta de la `L` de `hsl()`, que es una luminosidad relativa a otros colores. Especificación de referencia: CSS Color Module Level 4, apartado *ok-lab*. MDN añade que los ángulos de matiz difieren entre `oklch()` y `hsl()` (en `oklch()` el 0° corresponde a magenta y el rojo ronda los 41°).
 
 ### Restricciones
 - `C` fuera de la gama del dispositivo se recorta (gamut mapping): el color renderizado puede no ser el declarado.
@@ -41,7 +42,7 @@ last_sync: 2026-10-24
 - Björn Ottosson, *A perceptual color space for image processing*: <https://bottosson.github.io/posts/oklab/>
 
 ## Linked Nodes
-- Related: [[Index]], [[Hoja de Ruta]], [[Modelos de color]], [[Paleta de colores]], [[Color de marca]], [[Sistema de color en CSS]], [[Paleta de interfaz por capas de luminosidad]], [[Ratio de contraste]]
+- Related: [[Index]], [[Hoja de Ruta]], [[Modelos de color]], [[Paleta de colores]], [[Color de marca]], [[Sistema de color en CSS]], [[Ratio de contraste]]
 - Source History: [[2026-10-22]], [[2026-10-24]]
 
 ## Evolution / Updates
@@ -49,3 +50,4 @@ last_sync: 2026-10-24
 - 2026-10-24 · Enlazado con [[Paleta de colores]] y [[Color de marca]] como herramienta recomendada para generar variantes y estados con escalones de brillo regulares; se recuerda que no sustituye la [[Verificación de contraste]].
 - 2026-10-24 · Ampliada con aportes del vídeo [[Sajid — The Easy Way to Pick UI Colors]]: según el vídeo, LCH/OKLCH ofrecen mayor uniformidad perceptiva en las variaciones de luminosidad frente a HSL. Es una afirmación del autor del vídeo, no una norma.
 - 2026-10-25 · **Corrección:** La afirmación sobre que fuentes oficiales (W3C CSS Color 4/MDN) destacan la uniformidad perceptiva de OKLCH **NO está verificada** (escrita de memoria, fuente no leída en esta sesión). Solo se puede afirmar lo que dice el vídeo. Se enlaza con [[UI Colors (herramienta)]]. Observación a verificar (basada en capturas): en OKLCH el matiz y el croma se mantienen constantes mientras solo varía la luminosidad, mientras que en HSL varían los tres valores. Se mantiene la primacía de las fuentes oficiales (WCAG/WebAIM) sobre afirmaciones divulgativas. **Pendiente de verificar** con documentación oficial.
+- 2026-10-26 · **Verificación cerrada.** La lectura de la página oficial de MDN para `oklch()` respalda la uniformidad perceptiva: su `L` es brillo percibido y se distingue expresamente de la `L` de `hsl()` (spec CSS Color 4, apartado *ok-lab*). Se retira el marcado «pendiente de verificar» y se añade la advertencia sobre los ángulos de matiz. Limpieza de enlaces: creada [[Sistema de color en CSS]] y retirado el enlace a la nota inexistente de «paleta de interfaz por capas de luminosidad» (el contenido práctico vive en [[Paleta de colores]]).

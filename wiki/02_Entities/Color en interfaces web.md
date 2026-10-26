@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # Color en interfaces web
 
@@ -29,8 +29,8 @@ El color en una interfaz no es decoración: codifica jerarquía, estado e identi
 | Percepción | [[Percepción del color]], [[Deficiencia de visión al color]] |
 | Identidad y roles | [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]] |
 | Paletas | [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]] |
-| Normativa | [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Uso del color (WCAG 1.4.1)]], [[Niveles de conformidad WCAG]], [[EN 301 549]], [[Real Decreto 1112-2018]], [[WCAG 3.0 (borrador)]], [[APCA]] |
-| Implementación | [[Sistema de color en CSS]], [[Paleta de interfaz por capas de luminosidad]] |
+| Normativa | [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[Contraste mejorado (WCAG 1.4.6)]], [[Contraste de elementos no textuales (WCAG 1.4.11)]], [[Uso del color (WCAG 1.4.1)]], [[Niveles de conformidad WCAG]], [[EN 301 549]], [[Real Decreto 1112-2018]] |
+| Implementación | [[Sistema de color en CSS]] |
 | Verificación | [[Verificación de contraste]], [[Checklist de color para desarrolladores]] |
 | Significado y énfasis | [[Convenciones culturales del color]], [[Jerarquía visual con color]] |
 | Diagnóstico | [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] |
@@ -49,3 +49,4 @@ El color en una interfaz no es decoración: codifica jerarquía, estado e identi
 - 2026-10-24 · Añadida [[Hoja de Ruta]] como enlace inverso del plan del Tema 3.
 - 2026-10-24 · Investigados los apartados 1–4: se añaden al mapa [[Percepción del color]], [[Color de marca]], [[Roles de color (Material Design 3)]], [[Colores semánticos]], [[Paleta de colores]], [[Esquemas de color]], [[Regla 60-30-10]], [[Contraste WCAG]] y [[Verificación de contraste]]. Se registran las fuentes en `04_Sources/` y se mantiene la distinción entre hechos verificables y heurísticas de diseño.
 - 2026-10-24 · **Apartados 5–9:** se añaden al mapa [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] y [[Checklist de color para desarrolladores]]. Se enlaza el [[Esquema del Trabajo]].
+- 2026-10-26 · Saneamiento de enlaces: creadas [[EN 301 549]], [[Real Decreto 1112-2018]] y [[Sistema de color en CSS]]; retirados del mapa los enlaces a notas inexistentes (WCAG 3.0 en borrador, APCA y «paleta de interfaz por capas de luminosidad»).

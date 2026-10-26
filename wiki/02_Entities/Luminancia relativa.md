@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-22
+last_sync: 2026-10-26
 ---
 # Luminancia relativa
 
@@ -29,7 +29,7 @@ si Cs >  0.03928  →  C = ((Cs + 0.055) / 1.055) ^ 2.4
 - Un color muy saturado puede tener luminancia baja (azul puro) o alta (amarillo puro); la saturación no indica brillo.
 - Dos colores con el mismo `L` en HSL pueden tener luminancias relativas muy distintas.
 - El cálculo debe hacerse sobre el color **compuesto** que llega a pantalla: si hay transparencia (`rgba`, `opacity`) o capas, primero se compone sobre el fondo real.
-- La fórmula es la de WCAG 2.x. WCAG 3 estudia otra medida de contraste (aún sin determinar); ver [[WCAG 3.0 (borrador)]] y [[APCA]].
+- La fórmula es la de WCAG 2.x. WCAG 3 sigue en borrador y estudia un modelo de contraste alternativo (APCA) aún sin decisión final; los umbrales y la fórmula vigentes siguen siendo los de WCAG 2.2.
 
 ### Fuentes
 - W3C, *WCAG 2.2 · Relative luminance* (definición normativa): <https://www.w3.org/TR/WCAG22/#dfn-relative-luminance>
@@ -42,3 +42,4 @@ si Cs >  0.03928  →  C = ((Cs + 0.055) / 1.055) ^ 2.4
 
 ## Evolution / Updates
 - 2026-10-24 · Enlazado con [[Contraste WCAG]] y [[Verificación de contraste]]; se mantiene la advertencia de calcular sobre el color compuesto final.
+- 2026-10-26 · Limpieza: la mención a WCAG 3/APCA pasa a texto plano (la nota enlazada no existía); se matiza que WCAG 3 sigue en borrador sin decisión final.

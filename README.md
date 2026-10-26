@@ -14,6 +14,8 @@ colores/
 │   ├── 02_Entities/    Notas atómicas: conceptos, modelos, herramientas
 │   ├── 04_Sources/     Volcados en bruto, apuntes, transcripciones
 │   └── 06_Journal/     Bitácora diaria de progreso
+├── web/                                        # Frontend Vue 3 + Vite con ejemplos interactivos
+│   └── (ver web/README.md)                     # calculadora WCAG, generador de paletas, modo presentación…
 └── README.md
 ```
 
@@ -22,6 +24,7 @@ colores/
 1. Clonar el repositorio.
 2. Abrir Obsidian → *Open folder as vault* → seleccionar la carpeta `wiki/`.
 3. Trabajar con OpenCode dentro del repo: la skill `obsidian-memory` se descubre automáticamente desde `.opencode/skills/`.
+4. Para la demo web: `cd web && npm install && npm run dev`.
 
 ## Convenciones
 

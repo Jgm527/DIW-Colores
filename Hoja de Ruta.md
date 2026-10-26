@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/schema]
-last_sync: 2026-10-24
+last_sync: 2026-10-26
 ---
 # Hoja de Ruta
 
@@ -104,7 +104,7 @@ Se valorará especialmente **mostrar ejemplos prácticos y visuales**.
 - [x] Extraer requisitos de formato, investigación, apartados y preguntas test.
 - [x] Confirmar el **documento de referencia**: el PDF completo `PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf`.
 - [x] Confirmar la **versión vigente** de las pautas: la versión completa alojada en `04_Sources/`.
-- [ ] Confirmar el **canal de entrega**.
+- [x] Confirmar el **canal de entrega**: Moodle (registrado el 2026-10-24).
 - [x] Confirmar las **condiciones del vídeo**, que ya figuran en el PDF completo (3–4 min, todos participan, ejemplos visuales).
 - [ ] Confirmar si la pareja/grupo está cerrado y quién asume cada parte.
 - [x] Acordar el índice definitivo del Tema 3 a partir de los 9 apartados obligatorios.
@@ -251,7 +251,7 @@ Solo se registran fuentes aportadas por el usuario y fuentes oficiales consultad
 
 - ¿La extensión de **4 a 8 folios** incluye bibliografía, portada y figuras?
 - ¿Qué **estilo de cita** se exige? El PDF solo pide que todas las fuentes aparezcan en la bibliografía/webgrafía.
-- ¿Qué **formato y canal de entrega** se utilizan (PDF, plataforma, correo)?
+- ¿Qué **formato de fichero** se entrega (PDF, otro)? El **canal** ya está cerrado: Moodle.
 - ¿Se exige **portada, índice o conclusión**? El PDF solo exige estructura clara con títulos y subtítulos.
 - ¿Las **8 preguntas** se entregan dentro del trabajo escrito o en un documento aparte?
 - ¿Cómo se acredita la **autoría** de las capturas y ejemplos propios?
@@ -261,6 +261,8 @@ Solo se registran fuentes aportadas por el usuario y fuentes oficiales consultad
 > **Cerrada el 2026-10-24:** las condiciones del vídeo, que ya figuran en la versión completa del PDF.
 >
 > **Cerradas el 2026-10-24:** la **fecha de entrega** (no se tendrá en cuenta y se retira de todas las notas), la **versión vigente de las pautas** y la **localización de `pautas_proyecto_tema3.pdf`**. El documento de referencia es el PDF completo `04_Sources/PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf`.
+>
+> **Cerrada el 2026-10-26:** el **canal de entrega** es Moodle (registrado el 2026-10-24 en el Journal; constaba por error como abierta en esta nota). Queda abierto solo el formato del fichero.
 
 ## Linked Nodes
 - Related: [[Index]], [[Color en interfaces web]], [[Modelos de color]], [[OKLCH]], [[Ratio de contraste]], [[Uso del color (WCAG 1.4.1)]], [[Contraste WCAG]], [[Paleta de colores]], [[Percepción del color]], [[Esquema del Trabajo]], [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]], [[Checklist de color para desarrolladores]]
@@ -280,3 +282,4 @@ Solo se registran fuentes aportadas por el usuario y fuentes oficiales consultad
   - El **vídeo** pasa de «requisito confirmado externamente» a contenido del propio PDF.
   - Se **eliminan todas las referencias a la fecha de entrega** y se cierran las preguntas sobre versión vigente y localización del fichero.
 - 2026-10-24 · **Decisiones y apartados 5–9 investigados.** Se unifican las citas a **WCAG 2.2** y se documenta en [[Niveles de conformidad WCAG]] que 1.4.1 y 1.4.3 no cambian. Se lee la documentación web oficial de **Material Design 3 — Color roles**, que sustituye las cautelas basadas solo en Wear OS. Se crean [[Convenciones culturales del color]], [[Jerarquía visual con color]], [[Errores frecuentes de color]], [[Combinaciones de color (buenas y malas)]] y [[Checklist de color para desarrolladores]]; los apartados 5–9 pasan a 🔄. Se acuerda el [[Esquema del Trabajo]] con índice, presupuesto de 1.670 palabras y cinco figuras pendientes. Nuevas fuentes registradas: [[Material Design 3 — Color roles]] y [[W3C — What's New in WCAG 2.2]] (9 fuentes técnicas u oficiales leídas).
+- 2026-10-26 · **Saneamiento:** marcado como confirmado el canal de entrega (Moodle), que constaba en el Journal del 2026-10-24 pero seguía abierto aquí; la pregunta abierta se reformula para el formato del fichero, que sigue sin confirmar. Verificación OKLCH cerrada con MDN en [[OKLCH]] y [[Sajid — The Easy Way to Pick UI Colors]].

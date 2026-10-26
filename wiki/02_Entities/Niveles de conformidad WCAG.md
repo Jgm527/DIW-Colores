@@ -1,6 +1,6 @@
 ---
 tags: [ai-memory, state/active, type/concept]
-last_sync: 2026-10-22
+last_sync: 2026-10-26
 ---
 # Niveles de conformidad WCAG
 
@@ -32,7 +32,7 @@ Fuente: <https://www.w3.org/WAI/Conformance>
 
 ### W3C no certifica
 «The appearance of a conformance icon does not imply that W3C has reviewed or validated the claim.»
-Un sello de una empresa auditora es un servicio de terceros, no un certificado W3C. La metodología oficial de evaluación por muestreo es [[WCAG-EM]].
+Un sello de una empresa auditora es un servicio de terceros, no un certificado W3C. La metodología oficial de evaluación por muestreo es **WCAG-EM** (*Website Accessibility Conformance Evaluation Methodology*, del propio W3C).
 
 ### Compatibilidad entre versiones
 WCAG 2.2 no deroga 2.1 ni 2.0. Contenido conforme a 2.2 también lo es a 2.1 y 2.0. W3C recomienda usar la versión más reciente.
@@ -47,12 +47,13 @@ Fuente: <https://www.w3.org/WAI/standards-guidelines/wcag/>
 - Fuente normativa: <https://www.w3.org/TR/WCAG22/>
 
 ### ISO
-WCAG 2.2 (texto de octubre de 2023) es [[ISO/IEC 40500]] :2025.
+WCAG 2.2 (texto de octubre de 2023) está publicada también como norma ISO/IEC 40500:2025.
 
 ## Linked Nodes
-- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[WCAG-EM]], [[EN 301 549]], [[ISO/IEC 40500]], [[Declaración de accesibilidad]], [[WCAG 3.0 (borrador)]], [[Checklist de color para desarrolladores]]
+- Related: [[Index]], [[Contraste WCAG]], [[Contraste mínimo (WCAG 1.4.3)]], [[EN 301 549]], [[Real Decreto 1112-2018]], [[Checklist de color para desarrolladores]]
 - Source History: [[2026-10-22]], [[2026-10-24]]
 
 ## Evolution / Updates
 - 2026-10-24 · Enlazado con [[Contraste WCAG]] para situar los umbrales de color dentro de los niveles A/AA/AAA.
 - 2026-10-24 · **Versión unificada a WCAG 2.2.** Se documenta la decisión y se verifica que 1.4.1 y 1.4.3 no cambian respecto a 2.1; se cita *What's New in WCAG 2.2*. Se enlaza el [[Checklist de color para desarrolladores]].
+- 2026-10-26 · Saneamiento: WCAG-EM, ISO/IEC 40500 y «Declaración de accesibilidad» pasan a texto plano (las notas enlazadas no existían). Creadas [[EN 301 549]] y [[Real Decreto 1112-2018]], que sí aportan al trabajo, y enlazadas aquí.
