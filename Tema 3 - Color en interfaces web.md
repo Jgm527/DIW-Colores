@@ -60,75 +60,56 @@ Una paleta profesional debe implementarse mediante *tokens* (variables CSS), nom
 
 ## 4. Contraste
 
-### 4.1. Luminancia relativa y ratio
+### 4.1. ¿Qué es el contraste?
 
-El contraste entre dos colores se calcula mediante el *ratio de contraste* definido por WCAG 2.2. Para ello se utiliza la luminancia relativa de cada color, aplicando la fórmula `(L1 + 0.05) / (L2 + 0.05)`, donde `L1` corresponde al color más claro y `L2` al más oscuro. El valor resultante oscila entre 1:1 y 21:1, y **no debe redondearse**: 4,49:1 no cumple con el umbral de 4,5:1 [[Ratio de contraste]][[Luminancia relativa]].
+El **contraste** es la diferencia de luminosidad entre un elemento (como texto, un icono o un botón) y el color sobre el que aparece.
 
-### 4.2. Umbrales de WCAG 2.2 (texto normal, grande y no textual)
+Cuanto mayor sea esa diferencia, más fácil será distinguirlo. Cuanta menor sea, más difícil resultará leerlo, sobre todo para personas con baja visión, daltonismo o al usar la pantalla con poca luz.
 
-WCAG 2.2 establece los siguientes umbrales, que se mantienen sin cambios respecto a 2.1 para los criterios relacionados con el color:
+Un ejemplo claro: el negro (#000000) sobre blanco (#FFFFFF) tiene un contraste muy alto y se lee sin esfuerzo. En cambio, un gris claro sobre blanco apenas se distingue y se vuelve incómodo de leer.
 
-| Uso | Nivel | Umbral |
-| --- | --- | --- |
-| Texto normal e imágenes de texto | AA (1.4.3) | ≥ 4.5:1 |
-| Texto grande (≥ 18 pt / 24 px o ≥ 14 pt / 18,66 px en negrita) | AA (1.4.3) | ≥ 3:1 |
-| Texto normal | AAA (1.4.6) | ≥ 7:1 |
-| Texto grande | AAA (1.4.6) | ≥ 4.5:1 |
-| Componentes de interfaz y gráficos necesarios | AA (1.4.11) | ≥ 3:1 frente al color adyacente |
+### 4.2. El ratio de contraste
 
-Es importante destacar que todas las citas de este trabajo se unifican a **WCAG 2.2**. Aunque esta versión añade nueve nuevos criterios, los criterios 1.4.1 y 1.4.3 no cambian respecto a 2.1. Además, el criterio 4.1.1 *Parsing* queda obsoleto [[Contraste WCAG]][[Niveles de conformidad WCAG]][[W3C — What's New in WCAG 2.2]].
+WCAG mide esa diferencia mediante el *ratio de contraste*. Se expresa con una proporción del tipo `4,5:1`, que significa: el color más claro es 4,5 veces más luminoso que el más oscuro.
 
-### 4.3. Texto sobre imágenes, degradados y transparencias
+La escala va de:
 
-Uno de los errores más habituales es medir el contraste sobre el color del token, en lugar de hacerlo sobre el color final renderizado. Cuando el texto se sitúa sobre una imagen, un degradado o una capa con transparencia, el color de fondo visible puede variar en distintas zonas. En estos casos, es necesario medir la zona con menor contraste o garantizar que se cumple el umbral en todas las áreas donde aparece el texto [[Verificación de contraste]][[Errores frecuentes de color]].
+- **1:1** – Sin contraste. El elemento y el fondo son el mismo color, por lo que es imposible distinguirlo.
+- **21:1** – Contraste máximo. El caso más claro es el negro sobre blanco.
 
-### 4.4. Herramientas y proceso de verificación
+Un detalle importante: **el resultado nunca se redondea**. Si un par da `4,49:1`, no cumple el requisito de `4,5:1`, aunque visualmente la diferencia parezca mínima [[Ratio de contraste]][[Luminancia relativa]].
 
-El proceso recomendado por WebAIM consiste en: localizar los elementos dependientes del color, realizar un escaneo automatizado, llevar a cabo una revisión manual con herramientas de medición, corregir en los tokens o en el CSS y volver a verificar tras los cambios. Herramientas como el *WebAIM Contrast Checker* permiten calcular el ratio con precisión, mientras que extensiones como WAVE ayudan a detectar casos evidentes [[Verificación de contraste]][[WebAIM — Comprobador de contraste]].
+### 4.3. ¿Cuánto contraste se necesita?
 
-### 4.5. Casos que fallan y cómo corregirlos
+WCAG 2.2 establece unos umbrales mínimos en función del tipo de elemento. Estos son los que se aplican para alcanzar el nivel AA, el más utilizado en proyectos:
 
-El artículo de Pope Tech ofrece ejemplos prácticos. Un texto gris `#7C7C7C` sobre blanco presenta un ratio de 4,17:1, inferior al 4,5:1 exigido, que puede corregirse con `#6B6B6B` para alcanzar 5,36:1. Un botón azul `#1550ED` sobre un fondo oscuro `#112642` alcanza solo 2,46:1 (inferior al 3:1 exigido para componentes), que puede ajustarse a `#3365F0` para conseguir 3,08:1. Por último, un enlace `#0070C9` sobre texto `#333333` presenta 2,5:1, insuficiente para distinguirlo únicamente por color, por lo que se debe aumentar el contraste o añadir un subrayado [[Combinaciones de color (buenas y malas)]][[Pope Tech — Color contrast accessibility tools with examples]].
+| Elemento                                                                                          | Nivel       | Ratio mínimo                    |
+| ------------------------------------------------------------------------------------------------- | ----------- | ------------------------------- |
+| Texto normal (menos de 18 pt / 24 px, o menos de 14 pt / 18,66 px si no está en negrita)          | AA (1.4.3)  | ≥ 4,5:1                         |
+| Texto grande (igual o superior a 18 pt / 24 px, o igual o superior a 14 pt / 18,66 px en negrita) | AA (1.4.3)  | ≥ 3:1                           |
+| Componentes de interfaz e iconos necesarios (botones, campos, indicadores, bordes...)             | AA (1.4.11) | ≥ 3:1 frente al color adyacente |
+| Texto normal (nivel AAA)                                                                          | AAA (1.4.6) | ≥ 7:1                           |
+| Texto grande (nivel AAA)                                                                          | AAA (1.4.6) | ≥ 4,5:1                         |
+
+Para este trabajo se unifica la referencia a **WCAG 2.2**. Los criterios 1.4.1 y 1.4.3 se mantienen igual que en WCAG 2.1. Además, el criterio 4.1.1 *Parsing* queda obsoleto [[Contraste WCAG]][[Niveles de conformidad WCAG]][[W3C — What's New in WCAG 2.2]].
+
+Para garantizar el contraste, conviene comprobar siempre el **color final que ve el usuario**, no el valor del *token*. Hay que prestar especial atención a textos sobre imágenes, degradados, transparencias o estados interactivos como *hover*, *focus* o *disabled* [[Verificación de contraste]][[Errores frecuentes de color]].
+
+El modo más práctico es medir con el *WebAIM Contrast Checker* [[WebAIM — Comprobador de contraste]]. Como ejemplo, un texto gris `#7C7C7C` sobre blanco (`#FFFFFF`) solo alcanza 4,17:1, por debajo del 4,5:1 exigido para texto normal, mientras que `#6B6B6B` sobre blanco alcanza 5,36:1 y sí lo cumple [[Combinaciones de color (buenas y malas)]][[Pope Tech — Color contrast accessibility tools with examples]].
+
+**Regla práctica:** *Si tienes que forzar la vista para leerlo, el contraste es insuficiente*. Compruébalo siempre con una herramienta.
 
 ## 5. Significado y uso de los colores
 
-### 5.1. Semántica funcional: error, éxito, aviso, información
+Los colores semánticos se utilizan para comunicar estados del sistema, como errores, avisos, éxito o información. Aunque existen convenciones muy extendidas (rojo para error, amarillo/naranja para aviso, verde para éxito y azul para información), estas asociaciones no son universales: son aprendidas, varían entre culturas y, en muchos casos, proceden de heurísticas y no de estudios interculturales. Por ello, InfoQ advierte de su predominio occidental, y las listas divulgativas, como las de SeedProd, deben tomarse con cautela [[Colores semánticos]][[Convenciones culturales del color]][[InfoQ — Colors and the UI]][[SeedProd — Teoría del color en diseño web]].
 
-Los colores semánticos asignan un significado estable a los estados del sistema. Tradicionalmente, el rojo se asocia a errores, el verde al éxito, el amarillo/naranja a advertencias y el azul a información. Sin embargo, este significado no proviene del color en sí, sino de una convención aprendida. Por este motivo, **nunca debe usarse el color como único canal**: todo estado semántico debe ir acompañado de texto, icono o forma para cumplir con el criterio 1.4.1 [[Colores semánticos]][[Uso del color (WCAG 1.4.1)]].
-
-### 5.2. Convenciones culturales: ejemplos y cautelas
-
-Las asociaciones culturales del color son aprendidas y varían según el contexto. Mientras que en muchas culturas occidentales el rojo se asocia al peligro, en China puede asociarse a la suerte. InfoQ advierte explícitamente que muchas de estas asociaciones son occidentales y que cambian entre culturas. Por su parte, SeedProd ofrece ejemplos divulgativos, pero no estudios interculturales. Dado que **no se ha consultado una fuente primaria de investigación intercultural**, las listas de significados que circulan en blogs se consideran **heurísticas**, no hechos universales [[Convenciones culturales del color]][[InfoQ — Colors and the UI]][[SeedProd — Teoría del color en diseño web]].
-
-### 5.3. Estabilidad del significado y contexto de uso
-
-Para que un color semántico sea eficaz, debe ser coherente en toda la aplicación. El usuario debe poder aprender que, por ejemplo, cualquier mensaje de error utiliza el mismo par de colores y el mismo tipo de icono. Además, el significado debe estar reforzado por el texto: un mensaje como «No se pudo guardar los cambios» es comprensible independientemente de la connotación cultural del tono utilizado [[Colores semánticos]][[Convenciones culturales del color]].
-
-### 5.4. Errores: universalizar asociaciones y depender solo del tono
-
-El principal error en este apartado es asumir que «el rojo siempre significa peligro» o que «el verde siempre significa éxito». Esto resulta especialmente problemático en productos con alcance internacional. También es incorrecto codificar estados únicamente con color, ya que esto excluye a personas con deficiencias de visión al color y no cumple con WCAG 1.4.1. La solución pasa por combinar color con otros elementos visuales, independientemente de las convenciones culturales [[Uso del color (WCAG 1.4.1)]][[Deficiencia de visión al color]].
+Para que estos significados resulten eficaces, es fundamental mantener la coherencia en toda la aplicación: el mismo estado debe usar siempre los mismos colores, iconos y mensajes. Además, **nunca debe usarse el color como único canal** para transmitir información. Debe ir siempre acompañado de texto, icono o forma, tal como exige el criterio 1.4.1 de WCAG 2.2. Esto no solo evita malentendidos, sino que también garantiza la accesibilidad para personas con deficiencias de visión al color. Asumir significados fijos o codificar estados únicamente con color es uno de los errores más frecuentes, especialmente en productos con alcance internacional [[Uso del color (WCAG 1.4.1)]][[Deficiencia de visión al color]].
 
 ## 6. Utilización del color para destacar información
 
-### 6.1. Jerarquía y énfasis: una acción principal
+Para guiar la atención, el color debe usarse con moderación. Lo más eficaz es **destacar una sola acción principal** por vista, reservando los tonos más llamativos para ella y manteniendo las superficies neutras para no competir con el contenido [[Jerarquía visual con color]][[Roles de color (Material Design 3)]].
 
-El color es una de las herramientas más eficaces para guiar la atención, pero debe usarse con moderación. En cualquier vista debe existir, idealmente, **una única acción principal**. Material Design 3 refleja esta idea con sus roles de énfasis: *primary* para la acción más importante, *secondary* para acciones secundarias y *tertiary* para acentos puntuales. Esta asignación debe reforzarse con otros recursos como el tamaño, la posición o el espacio [[Jerarquía visual con color]][[Roles de color (Material Design 3)]].
-
-### 6.2. Acento, llamadas a la acción y superficies
-
-Los colores de acento deben reservarse para aquello que realmente requiere atención: un botón de llamada a la acción, una notificación importante o un indicador clave. Los colores de superficie, por el contrario, deben mantenerse neutros para no competir con el contenido. Como guía práctica, la regla 60-30-10 puede ayudar a mantener este equilibrio, siempre entendida como heurística y no como norma obligatoria [[Regla 60-30-10]][[Jerarquía visual con color]].
-
-### 6.3. Estados interactivos y foco visible
-
-Los estados interactivos (hover, activo, enfocado, deshabilitado) deben diferenciarse claramente del estado por defecto. Especial atención merece el **foco de teclado**: debe ser visible, tener suficiente contraste con el fondo y distinguirse del resto de estados. El hecho de que un elemento esté enfocado debe ser perceptible incluso para personas que naveguen únicamente con teclado [[Jerarquía visual con color]][[Uso del color (WCAG 1.4.1)]].
-
-### 6.4. La regla de no usar solo color
-
-El criterio 1.4.1 de WCAG 2.2 es fundamental en este apartado: el color no puede ser el único medio visual para transmitir información, indicar una acción, pedir una respuesta o distinguir un elemento. En la práctica, esto significa que un enlace debe distinguirse del texto no solo por color (idealmente con subrayado), que un error debe mostrar un mensaje de texto, y que los estados de los campos deben ir acompañados de indicaciones explícitas [[Uso del color (WCAG 1.4.1)]].
-
-### 6.5. Cómo comprobar que el énfasis funciona
-
-Para verificar la jerarquía, se recomienda hacer una prueba en **escala de grises**: si, al eliminar el color, sigue quedando claro cuál es la acción principal, la jerarquía es correcta. También conviene simular deficiencias de visión al color y comprobar que los elementos interactivos mantienen su distinción. Por último, debe verificarse el contraste tanto del estado por defecto como de los estados interactivos y del foco [[Deficiencia de visión al color]][[Verificación de contraste]].
+Los estados interactivos (*hover*, *focus*, *active* o *disabled*) deben distinguirse claramente, especialmente el **foco de teclado**, que ha de ser visible y con contraste suficiente. Para comprobarlo, basta con una prueba en **escala de grises** o con herramientas de simulación: si la acción principal sigue siendo evidente y los elementos interactivos siguen identificándose, la jerarquía es correcta [[Deficiencia de visión al color]][[Verificación de contraste]].
 
 ## 7. Errores frecuentes
 
@@ -153,13 +134,11 @@ Los errores que se repiten con mayor frecuencia son los siguientes:
 11. **Confianza exclusiva en herramientas automáticas**: no se revisan transparencias, imágenes o degradados.
 12. **Combinaciones con poca diferencia de luminancia**: tonos «armónicos» que, medidos, resultan ilegibles [[Errores frecuentes de color]].
 
-### 7.3. Por qué se repiten
+### 7.3. Detección y prevención
 
-Estos errores se repiten año tras año porque son fáciles de introducir durante el desarrollo, difíciles de detectar a simple vista y, con frecuencia, no se incluyen en las comprobaciones manuales. Además, existe una tendencia a priorizar la estética sobre la legibilidad, o a asumir que el color de marca debe preservarse a toda costa. El hecho de que sean los errores más corregibles no implica que se corrijan sistemáticamente [[WebAIM Million 2026]][[Errores frecuentes de color]].
+Estos errores se repiten porque son fáciles de introducir, difíciles de detectar a simple vista y rara vez se comprueban manualmente. Aunque son los más corregibles, la tendencia a priorizar la estética o preservar el color de marca impide que se subsanen sistemáticamente [[WebAIM Million 2026]][[Errores frecuentes de color]].
 
-### 7.4. Cómo detectarlos antes de publicar
-
-La detección eficaz requiere combinar automatización y revisión manual. Es necesario medir los pares reales con un comprobador de contraste, revisar la interfaz en escala de grises, simular deficiencias de visión al color, navegar con teclado para comprobar el foco y probar los estados y el modo oscuro. Además, conviene leer el mensaje sin fijarse en el color: si para entenderlo es imprescindible distinguir un tono, existe una dependencia cromática que debe corregirse [[Verificación de contraste]][[Errores frecuentes de color]].
+Para detectarlos, conviene combinar automatización y revisión manual: medir los pares reales con un comprobador de contraste, revisar en escala de grises, simular deficiencias de visión al color, navegar con teclado y probar los estados y el modo oscuro. Si para entender un mensaje es imprescindible distinguir un tono, existe una dependencia cromática que debe corregirse [[Verificación de contraste]][[Errores frecuentes de color]].
 
 ## 8. Ejemplos de buenas y malas combinaciones
 
@@ -175,11 +154,11 @@ Algunas combinaciones son sistemáticamente problemáticas. Los grises claros so
 
 Tomando como referencia los ejemplos de Pope Tech, se pueden observar correcciones concretas:
 
-| Caso | Combinación | Ratio | Resultado | Corrección propuesta |
-| --- | --- | --- | --- | --- |
-| Texto gris sobre blanco | `#7C7C7C` / `#FFFFFF` | 4,17:1 | No cumple (texto normal requiere ≥ 4,5:1) | `#6B6B6B` / `#FFFFFF` → 5,36:1 |
-| Botón sobre fondo oscuro | `#1550ED` / `#112642` | 2,46:1 | No cumple (componente no textual requiere ≥ 3:1) | `#3365F0` / `#112642` → 3,08:1 |
-| Enlace sobre texto | `#0070C9` sobre `#333333` (texto) | 2,5:1 | No cumple para distinguirse solo por color (se requiere ≥ 3:1) | Aumentar el contraste o añadir subrayado al enlace |
+| Caso                     | Combinación                       | Ratio  | Resultado                                                      | Corrección propuesta                               |
+| ------------------------ | --------------------------------- | ------ | -------------------------------------------------------------- | -------------------------------------------------- |
+| Texto gris sobre blanco  | `#7C7C7C` / `#FFFFFF`             | 4,17:1 | No cumple (texto normal requiere ≥ 4,5:1)                      | `#6B6B6B` / `#FFFFFF` → 5,36:1                     |
+| Botón sobre fondo oscuro | `#1550ED` / `#112642`             | 2,46:1 | No cumple (componente no textual requiere ≥ 3:1)               | `#3365F0` / `#112642` → 3,08:1                     |
+| Enlace sobre texto       | `#0070C9` sobre `#333333` (texto) | 2,5:1  | No cumple para distinguirse solo por color (se requiere ≥ 3:1) | Aumentar el contraste o añadir subrayado al enlace |
 
 Estos valores son reproducibles con un comprobador de contraste y sirven como ejemplo didáctico [[Combinaciones de color (buenas y malas)]][[Pope Tech — Color contrast accessibility tools with examples]].
 
@@ -189,25 +168,9 @@ Una combinación es buena cuando cumple su función sin sacrificar legibilidad. 
 
 ## 9. Recomendaciones prácticas
 
-### 9.1. Checklist para el desarrollador
+Antes de dar por finalizado el trabajo con el color, conviene comprobar lo siguiente: cada color debe tener una función definida como *token*, el contraste debe medirse sobre el color final renderizado (≥ 4,5:1 para texto normal, ≥ 3:1 para texto grande y componentes), los estados interactivos y el modo oscuro deben verificarse, y los errores, enlaces o campos obligatorios deben tener siempre un segundo canal además del color. También es importante revisar en escala de grises, simular daltonismo, navegar con teclado y documentar los ratios obtenidos [[Checklist de color para desarrolladores]][[Verificación de contraste]].
 
-Antes de dar por finalizado el trabajo con el color, se recomienda comprobar lo siguiente:
-
-- **Definición**: cada color tiene una función y está definido como *token* con nombre por función.
-- **Contraste**: texto normal ≥ 4,5:1, texto grande ≥ 3:1, componentes ≥ 3:1. Se mide el color final renderizado.
-- **Estados**: se han verificado hover, foco, activo, deshabilitado y modo oscuro.
-- **No solo color**: errores, enlaces, gráficos y campos obligatorios tienen un segundo canal.
-- **Jerarquía**: existe una acción principal clara y el foco de teclado es visible.
-- **Pruebas**: revisión en escala de grises, simulación de daltonismo y navegación con teclado.
-- **Documentación**: se registran ratios, herramientas utilizadas y procedencia de las figuras [[Checklist de color para desarrolladores]].
-
-### 9.2. Proceso mínimo antes de publicar
-
-El proceso mínimo debe incluir un barrido con una herramienta automatizada, una revisión manual centrada en los puntos ciegos (imágenes, degradados, transparencias), la corrección directa en CSS o tokens, la verificación de los estados y una última comprobación tras los cambios. Si el proyecto está sujeto a requisitos normativos, conviene tener presente que la conformidad se declara por página completa y por nivel, y que el uso de WCAG 2.2 es el más recomendable en la actualidad [[Verificación de contraste]][[Niveles de conformidad WCAG]][[W3C — What's New in WCAG 2.2]].
-
-### 9.3. Cierre: la marca se adapta al contraste
-
-El color de marca es fundamental para la identidad, pero **la marca se adapta a los requisitos de legibilidad y contraste, no al contrario**. Si el color corporativo no alcanza el umbral para texto, debe reservarse para elementos gráficos o superficies donde el requisito sea menor, o bien ajustarse manteniendo su reconocimiento. De igual modo, las convenciones culturales pueden orientar, pero nunca deben imponerse por encima de la accesibilidad. Un diseño accesible no es un diseño menos atractivo, sino un diseño que funciona para más personas [[Color de marca]][[Convenciones culturales del color]][[Contraste WCAG]].
+Por último, **la marca se adapta a la accesibilidad, no al contrario**. Si el color corporativo no alcanza los umbrales exigidos, debe reservarse para elementos gráficos o ajustarse sin perder su reconocimiento. Un diseño accesible no es menos atractivo, sino más usable para todo el mundo [[Color de marca]][[Contraste WCAG]].
 
 ## Bibliografía y webgrafía
 
@@ -217,6 +180,8 @@ El color de marca es fundamental para la identidad, pero **la marca se adapta a 
 - Google. *Material Design 3 — Color roles*. Disponible en: [https://m3.material.io/styles/color/roles](https://m3.material.io/styles/color/roles)
 - InfoQ. *Colors and the UI*. Disponible en: [https://www.infoq.com/articles/Colors-UI/](https://www.infoq.com/articles/Colors-UI/)
 - Pope Tech. *Color contrast accessibility tools with examples*. Disponible en: [https://blog.pope.tech/?p=7791](https://blog.pope.tech/?p=7791)
+- Sajid. *The Easy Way to Pick UI Colors* [Vídeo]. YouTube. Disponible en: ([https://www.youtube.com/watch?v=vvPklRN0Tco](https://youtu.be/vvPklRN0Tco))
+- Sajid. *UI Colors*. Disponible en: [https://www.iamsajid.com/ui-colors/](https://www.iamsajid.com/ui-colors/)
 - SeedProd. *Teoría del color en diseño web*. Disponible en: [https://www.seedprod.com/es/web-design-color-theory/](https://www.seedprod.com/es/web-design-color-theory/)
 - WebAIM. *Contrast Checker*. Disponible en: [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
 - WebAIM. *Evaluating Contrast and Color for Accessibility*. Disponible en: [https://webaim.org/articles/contrast/](https://webaim.org/articles/contrast/)

@@ -10,14 +10,14 @@ Un esquema de color es una forma de seleccionar colores relacionados a partir de
 ## Core Context & Architectural Rules
 
 ### Tipos y para qué sirve cada uno
-| Esquema | Relación | Efecto típico | Uso habitual |
-| --- | --- | --- | --- |
-| Monocromático | Variantes de un solo tono | Coherente y sobrio; puede resultar plano | Fondos, marcas minimalistas |
-| Análogo | Tonos contiguos en la rueda | Suave y armonioso; poco contraste | Fondos, banners |
-| Complementario | Tonos opuestos | Alto contraste y atención | Botón sobre fondo, acentos |
-| Complementario dividido | Un tono + los dos vecinos de su opuesto | Contraste sin tanta tensión | Acentos |
-| Triádico | Tres tonos equidistantes | Vivo y equilibrado si uno domina | Marca con varios acentos |
-| Tetrádico | Dos pares complementarios | Rico y difícil de equilibrar | Proyectos con experiencia |
+| Esquema                 | Relación                                | Efecto típico                            | Uso habitual                |
+| ----------------------- | --------------------------------------- | ---------------------------------------- | --------------------------- |
+| Monocromático           | Variantes de un solo tono               | Coherente y sobrio; puede resultar plano | Fondos, marcas minimalistas |
+| Análogo                 | Tonos contiguos en la rueda             | Suave y armonioso; poco contraste        | Fondos, banners             |
+| Complementario          | Tonos opuestos                          | Alto contraste y atención                | Botón sobre fondo, acentos  |
+| Complementario dividido | Un tono + los dos vecinos de su opuesto | Contraste sin tanta tensión              | Acentos                     |
+| Triádico                | Tres tonos equidistantes                | Vivo y equilibrado si uno domina         | Marca con varios acentos    |
+| Tetrádico               | Dos pares complementarios               | Rico y difícil de equilibrar             | Proyectos con experiencia   |
 
 Fuentes: CareerFoundry, <https://careerfoundry.com/en/blog/ui-design/introduction-to-color-theory-and-color-palettes/>; SeedProd, <https://www.seedprod.com/es/web-design-color-theory/>.
 

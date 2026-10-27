@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "bbb6ce41ce4d98e5",
+            "id": "e5357afab9a39ca0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,17 +62,31 @@
             }
           },
           {
-            "id": "111e4f016438b242",
+            "id": "b3e35f492fb50020",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/04_Sources/Material Design 3 — Color roles.md",
+                "file": "wiki/02_Entities/Regla 60-30-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Material Design 3 — Color roles"
+              "title": "Regla 60-30-10"
+            }
+          },
+          {
+            "id": "8eadd01ee50a5384",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/02_Entities/OKLCH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OKLCH"
             }
           }
         ],
@@ -244,15 +258,30 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "bbb6ce41ce4d98e5",
+  "active": "e5357afab9a39ca0",
   "lastOpenFiles": [
     "wiki/04_Sources/PROYECTO_PRINCIPIOS_DEL_DISENHO_DE_INTERFACES.pdf",
+    "Tema 3 - Color en interfaces web.md",
+    "wiki/04_Sources/SeedProd — Teoría del color en diseño web.md",
+    "wiki/04_Sources/Pope Tech — Color contrast accessibility tools with examples.md",
+    "wiki/02_Entities/Deficiencia de visión al color.md",
+    "wiki/02_Entities/Verificación de contraste.md",
+    "wiki/02_Entities/Roles de color (Material Design 3).md",
+    "wiki/02_Entities/Jerarquía visual con color.md",
+    "wiki/04_Sources/InfoQ — Colors and the UI.md",
+    "wiki/02_Entities/Uso del color (WCAG 1.4.1).md",
+    "wiki/04_Sources/WebAIM — Comprobador de contraste.md",
+    "wiki/02_Entities/Ratio de contraste.md",
+    "wiki/02_Entities/Luminancia relativa.md",
+    "wiki/02_Entities/Paleta de colores.md",
+    "wiki/02_Entities/Regla 60-30-10.md",
+    "wiki/02_Entities/OKLCH.md",
+    "wiki/02_Entities/Esquemas de color.md",
+    "wiki/02_Entities/Color de marca.md",
+    "wiki/04_Sources/Material Design 3 — Color roles.md",
     "Esquema del Trabajo.md",
     "Hoja de Ruta.md",
-    "Tema 3 - Color en interfaces web.md",
-    "wiki/04_Sources/Material Design 3 — Color roles.md",
     "wiki/04_Sources/WebAIM Million 2026.md",
-    "wiki/02_Entities/Uso del color (WCAG 1.4.1).md",
     "wiki/02_Entities/Color en interfaces web.md",
     "web/node_modules/vue/server-renderer/package.json",
     "web/node_modules/vue/server-renderer/index.mjs",
@@ -266,27 +295,12 @@
     "web/node_modules/@vue/compiler-dom/README.md",
     "web/node_modules/@vue/reactivity/README.md",
     "web/node_modules/nanoid/README.md",
-    "web/node_modules/source-map-js/README.md",
-    "web/node_modules/picomatch/README.md",
-    "web/node_modules/esbuild/README.md",
-    "web/node_modules/@babel/parser/README.md",
-    "web/node_modules/@types/estree/README.md",
-    "web/node_modules/@babel/parser/CHANGELOG.md",
-    "web/node_modules/@babel/helper-validator-identifier/README.md",
-    "README.md",
-    "wiki/02_Entities/Esquema del Trabajo.md",
-    "wiki/04_Sources/Tema 3 - Color en interfaces web.md",
-    "wiki/02_Entities/Hoja de Ruta.md",
-    "wiki/02_Entities/UI Colors (herramienta).md",
     "wiki/04_Sources/adjuntos/sajid_web_ui-colors_02_paleta.png",
     "wiki/04_Sources/adjuntos/sajid_web_ui-colors_01_paleta.png",
     "wiki/04_Sources/adjuntos/Sajid_Diferencia_LCH_OKLCH-8.26.png",
     "wiki/04_Sources/adjuntos/Sajid_-8.26.png",
     "wiki/04_Sources/adjuntos/Sajid_Paleta_Colores_HSL-1.11.png",
     "wiki/04_Sources/adjuntos/Sajid-1.11.png",
-    "wiki/04_Sources/adjuntos/Sajid-8.26.png",
-    "wiki/04_Sources/W3C — What's New in WCAG 2.2.md",
-    "wiki/02_Entities/Checklist de color para desarrolladores.md",
-    "wiki/02_Entities/Combinaciones de color (buenas y malas).md"
+    "wiki/04_Sources/adjuntos/Sajid-8.26.png"
   ]
 }
