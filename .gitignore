@@ -13,3 +13,8 @@ desktop.ini
 # Entornos locales
 .env
 node_modules/
+
+# Generados por el build del vídeo
+__pycache__/
+video/remotion/out/
+video/remotion/.remotion/

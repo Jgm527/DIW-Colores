@@ -1,0 +1,21 @@
+{
+  "name": "remotion-color",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.ts Main out/Color_en_Interfaces_Web.mp4 --crf 14 --x264-parameters \"preset=slow,ref=4,deblock=-1:-1\"",
+    "silent": "remotion render src/index.ts Main out/Color_en_Interfaces_Web_sin_voz.mp4 --muted --crf 14 --x264-parameters \"preset=slow,ref=4,deblock=-1:-1\"",
+    "studio": "remotion studio"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.408",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.408"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/web": "^0.0.120",
+    "typescript": "^5.5.4"
+  }
+}
